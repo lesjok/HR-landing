@@ -1,0 +1,4 @@
+.footer__text {
+  font-size: var(--font-size-24);
+  color: var(--secondary-color);
+}
