@@ -1,8 +1,10 @@
 .footer {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 0 140px;
+  max-width: 1160px;
   box-sizing: border-box;
+  margin: 0 auto;
+  padding: 50px 106px 0;
   display: flex;
-  gap: 315px;
+  gap: 150px;
+  background-color: var(--white-color);
+  border-radius: var(--border-radius-l) var(--border-radius-l) 0 0;
 }
