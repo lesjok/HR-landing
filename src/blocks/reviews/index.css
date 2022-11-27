@@ -3,3 +3,8 @@
 @import url(./__title/reviews__title.css);
 @import url(./__cards/reviews__cards.css);
 @import url(./__item/reviews__item.css);
+@import url(./__slider/reviews__slider.css);
+@import url(./__button/reviews__button.css);
+@import url(./__button/reviews__button_left.css);
+@import url(./__button/reviews__button_right.css);
+@import url(./__btn/reviews__btn.css);
