@@ -14,6 +14,113 @@
 
 @import url(../blocks/header/index.css);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**** CARD  ****/
+
+@import url(../blocks/card/index.css);
+
+/**** REVIEWS  ****/
+
+@import url(../blocks/reviews/index.css);
+
+/**** FOOTER ****/
+
+@import url(../blocks/footer/index.css);
+
 /**** CONTACT ****/
 
 @import url(../blocks/hero/index.css);
@@ -21,3 +128,5 @@
 /**** CONTACT ****/
 
 @import url(../blocks/contact/index.css);
+
+

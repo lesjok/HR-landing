@@ -3,9 +3,9 @@
   --blue-color: #3073E8;
   --black-color: #000;
   --grayish-color: #F5F5F5;
-  --grey_light-color: #BDBDBD;
-  --grey-color: #6D7280;
-  --grey_dark-color: #374151;
+  --gray_light-color: #BDBDBD;
+  --gray-color: #6D7280;
+  --gray_dark-color: #374151;
   --font-weight-900: 900;
   --font-weight-500: 500;
   --font-weight-400: 400;
@@ -13,9 +13,11 @@
   --font-family-YS: "YS Text", "Arial", "sans-serif";
   --font-style-normal: normal;
   --font-size-main: 18px;
+  --font-size-l: 30px;
+  --font-size-s: 14px;
   --line-height-s: 16px;
   --line-height-m: 22px;
-  --line-height-l: 35px;
+  --line-height-l: 36px;
   --line-height-xl: 42px;
   --max-width: 1440px;
   --breakpoint-sm: 640px;
@@ -27,4 +29,6 @@
   --border-radius-m: 25px;
   --border-radius-l: 40px;
   --border-radius-xl: 50px;
+  --border-radius-2xl: 100px;
 }
+
