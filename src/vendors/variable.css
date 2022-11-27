@@ -1,5 +1,29 @@
 :root {
-  --primary-color: #eeeeee;
-  --secondary-color: #000;
-  --font-size-24: 24px;
+  --white-color: #FFF;
+  --blue-color: #3073E8;
+  --black-color: #000;
+  --grey_light-color: #BDBDBD;
+  --grey-color: #6D7280;
+  --grey_dark-color: #374151;
+  --font-weight-900: 900;
+  --font-weight-500: 500;
+  --font-weight-400: 400;
+  --font-family-main: "Inter", "Arial", "sans-serif";
+  --font-family-YS: "YS Text", "Arial", "sans-serif";
+  --font-style-normal: normal;
+  --font-size-main: 18px;
+  --line-height-s: 16px;
+  --line-height-m: 22px;
+  --line-height-l: 35px;
+  --line-height-xl: 42px;
+  --max-width: 1440px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --border-radius-xs: 6px;
+  --border-radius-s: 20px;
+  --border-radius-m: 25px;
+  --border-radius-l: 40px;
+  --border-radius-xl: 50px;
 }
