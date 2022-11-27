@@ -1,0 +1,14 @@
+.footer__button {
+  width: 387px;
+  border: 1px solid var(--black-color);
+  outline: none;
+  background-color: var(--black-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: var(--border-radius-xs);
+  font-weight: var(--font-weight-500);
+  color: var(--white-color);
+  cursor: pointer;
+}
