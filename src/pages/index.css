@@ -2,6 +2,14 @@
 @import url(../vendors/variable.css);
 @import url(../vendors/fonts.css);
 
+/**** BUTTON ****/
+
+@import url(../blocks/button/button.css);
+
 /**** HEADER ****/
 
 @import url(../blocks/header/index.css);
+
+/**** CONTACT ****/
+
+@import url(../blocks/contact/index.css);
