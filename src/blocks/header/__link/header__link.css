@@ -1,0 +1,6 @@
+.header__link {
+  font-family: var(--font-family-YS);
+  color: var(--black-color);
+  text-decoration: none;
+  align-self: center;
+}
