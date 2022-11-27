@@ -12,9 +12,10 @@
   --font-family-YS: "YS Text", "Arial", "sans-serif";
   --font-style-normal: normal;
   --font-size-main: 18px;
+  --font-size-s: 14px;
   --line-height-s: 16px;
   --line-height-m: 22px;
-  --line-height-l: 35px;
+  --line-height-l: 36px;
   --line-height-xl: 42px;
   --max-width: 1440px;
   --breakpoint-sm: 640px;
@@ -26,4 +27,6 @@
   --border-radius-m: 25px;
   --border-radius-l: 40px;
   --border-radius-xl: 50px;
+  --border-radius-2xl: 100px;
 }
+

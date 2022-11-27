@@ -1,0 +1,16 @@
+@import url(./footer.css);
+@import url(./__button/footer__button.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__description/footer__description.css);
+@import url(./__item/footer__item.css);
+@import url(./__left/footer__left.css);
+@import url(./__link/footer__link.css);
+@import url(./__links/footer__links.css);
+@import url(./__list/footer__list.css);
+@import url(./__media/footer__media.css);
+@import url(./__number/footer__number.css);
+@import url(./__phone/footer__phone.css);
+@import url(./__right/footer__.right.css);
+@import url(./__social/footer__social.css);
+@import url(./__icon/footer__icon.css);
+@import url(./__text/footer__text.css);
