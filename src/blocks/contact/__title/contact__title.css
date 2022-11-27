@@ -4,7 +4,7 @@
   max-width: 960px;
   line-height: var(--line-height-xl);
   font-weight: var(--font-weight-500);
-  font-size: 36px;
+  font-size: var(--line-height-l);
   text-align: center;
   align-self: center;
 }

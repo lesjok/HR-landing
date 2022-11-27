@@ -1,0 +1,12 @@
+.hero__button {
+  color: var(--black-color);
+  background-color: var(--white-color);
+  max-width: 345px;
+  align-self: center;
+  border-radius: 100px;
+  padding: 0 76px;
+  margin: 40px 0 0;
+  font-size: var(--line-height-s);
+  font-weight: var(--font-weight-500);
+  line-height: 60px;
+}
