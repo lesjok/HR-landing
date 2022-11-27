@@ -1,0 +1,8 @@
+.card__author {
+  margin: 0;
+  font-size: var(--font-size-s);
+  line-height: var(--line-height-s);
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+}

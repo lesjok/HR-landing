@@ -1,0 +1,7 @@
+.reviews__title {
+  margin: 0;
+  padding-bottom: 40px;
+  font-size: 60px;
+  line-height: 68px;
+  font-weight: var(--font-weight-500);
+}
