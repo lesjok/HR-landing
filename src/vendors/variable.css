@@ -2,9 +2,9 @@
   --white-color: #FFF;
   --blue-color: #3073E8;
   --black-color: #000;
-  --grey_light-color: #BDBDBD;
-  --grey-color: #6D7280;
-  --grey_dark-color: #374151;
+  --gray_light-color: #BDBDBD;
+  --gray-color: #6D7280;
+  --gray_dark-color: #374151;
   --font-weight-900: 900;
   --font-weight-500: 500;
   --font-weight-400: 400;
@@ -12,6 +12,8 @@
   --font-family-YS: "YS Text", "Arial", "sans-serif";
   --font-style-normal: normal;
   --font-size-main: 18px;
+
+  --font-size-l: 30px;
   --line-height-s: 16px;
   --line-height-m: 22px;
   --line-height-l: 35px;

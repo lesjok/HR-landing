@@ -1,0 +1,6 @@
+.card__title {
+  margin: 0;
+  padding-bottom: 15px;
+  font-size: var(--font-size-l);
+  line-height: var(--line-height-l);
+}

@@ -1,0 +1,5 @@
+@import url(./reviews.css);
+@import url(./__subtitle/reviews__subtitle.css);
+@import url(./__title/reviews__title.css);
+@import url(./__cards/reviews__cards.css);
+@import url(./__item/reviews__item.css);
