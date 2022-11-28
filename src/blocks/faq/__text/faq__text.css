@@ -1,0 +1,5 @@
+.faq__text {
+  font-size: var(--font-size-l);
+  line-height: var(--line-height-l);
+  margin: 0;
+}
