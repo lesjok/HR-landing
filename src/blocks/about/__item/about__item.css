@@ -4,5 +4,5 @@
   font-weight: var(--font-weight-500);
   color: var(--white-color);
   display: flex;
-  gap: 140px;
+  gap: 40px;
 }

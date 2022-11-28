@@ -1,6 +1,7 @@
 .scheme__button {
+  width: 260px;
   align-items: center;
-  border: 1px solid var(--black-color);
+  border: 1px solid var(--blue-color);
   border-radius: var(--border-radius-2xl);
   color: var(--white-color);
   display: flex;
@@ -10,6 +11,7 @@
   line-height: 50px;
   outline: none;
   padding: 0 28px;
-  background-color: var(--black-color);
+  background-color: var(--blue-color);
   cursor: pointer;
+  align-self: center;
 }

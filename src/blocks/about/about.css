@@ -1,7 +1,11 @@
 .about {
-  max-width: 1440px;
+  max-width: var(--max-width);
+  box-sizing: border-box;
   margin: 0 auto;
-  padding: 80px 0 150px;
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
   background-color: var(--black-color);
   border-radius: var(--border-radius-mxl);
 }

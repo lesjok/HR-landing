@@ -4,4 +4,5 @@
   line-height: var(--line-height-xl);
   font-weight: var(--font-weight-500);
   color: var(--black-color);
+  text-align: center;
 }
