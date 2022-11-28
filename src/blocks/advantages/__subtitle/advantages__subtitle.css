@@ -1,0 +1,6 @@
+.advantages__subtitle {
+  margin: 0;
+  font-weight: var(--font-weight-500);
+  font-size: 36px;
+  line-height: var(--line-height-xl);
+}

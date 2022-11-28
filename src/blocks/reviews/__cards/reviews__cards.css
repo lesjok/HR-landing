@@ -2,9 +2,9 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  width: 100%;
   display: flex;
   gap: 40px;
-  overflow-x: scroll;
-  scroll-behavior: smooth;
+  max-width: var(--max-width);
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
