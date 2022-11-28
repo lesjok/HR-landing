@@ -54,9 +54,7 @@ function typeLine() {
 
 
         if (line == headerTexts.length) {
-          clearTimeout(interval);
-          headerLine.textContent = result;
-          return true;
+          line = 0
         }
       }
       typeLine();
