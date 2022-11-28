@@ -1,51 +1,47 @@
 import {
+  modal, modalContent,
   quizAnswers,
-  quizContainer,
-  quizQuestionNext,
   quizQuestionsCount,
   quizReviewerBtn,
   quizTeacherBtn
 } from './constants';
 
-const quizBtns = [quizTeacherBtn, quizReviewerBtn];
+let teacherCount = 0;
+let reviewerCount = 0;
+export let clickCount = 0
 
-quizContainer.addEventListener('click', (evt) => {
-  console.log(evt.target)
-})
+export const quiz = (evt) => {
 
+  if (Number(quizQuestionsCount.textContent) < 6) {
+    clickCount++
+    if ( Number(quizQuestionsCount.textContent) < 5) {
+      quizQuestionsCount.textContent = Number(quizQuestionsCount.textContent) + 1;
+    }
 
-export const quiz = () => {
-  let teacherCount = 0;
-  let reviewerCount = 0;
-
-  const handleCountQuestions = (item) => {
-    quizQuestionsCount.textContent = Number(quizQuestionsCount.textContent) + 1;
-    if (item.getAttribute('data-set') === 'teacher') {
+    if (evt.target.classList.contains('quiz__teacher')) {
       teacherCount += 1;
-    } else {
+      quizTeacherBtn.innerHTML = quizAnswers.teacher[quizQuestionsCount.textContent - 1];
+      quizReviewerBtn.innerHTML = quizAnswers.reviwer[quizQuestionsCount.textContent - 1];
+    }
+    if (evt.target.classList.contains('quiz__reviewer')) {
       reviewerCount += 1;
+      quizReviewerBtn.innerHTML = quizAnswers.reviwer[quizQuestionsCount.textContent - 1];
+      quizTeacherBtn.innerHTML = quizAnswers.teacher[quizQuestionsCount.textContent - 1];
+    }
+
+    if (clickCount === 5) {
+
+      if (teacherCount > reviewerCount) {
+        modalContent.textContent = 'Вы наставник'
+      } else {
+        modalContent.textContent = 'Вы ревьювер'
+      }
+      modal.classList.add('modal_opened');
+
     }
   }
 
-  quizBtns.forEach(item => {
-    console.log(item)
-    item.addEventListener('click', handleCountQuestions);
-
-    // if (quizQuestionsCount.textContent = 5) {
-    //   item.removeEventListener('click', handleCountQuestions);
-    // }
-  });
-
-  quizQuestionNext.addEventListener('click', (e) => {
-    e.stopPropagation()
-    console.log('clicked')
-    quizQuestionsCount.textContent +=1;
-    console.log(quizAnswers.teacher[1])
-    console.log('btn', quizTeacherBtn)
-
-
-      quizTeacherBtn.innerHTML = quizAnswers.teacher[2];
-      quizReviewerBtn.innerHTML = quizAnswers.reviwer[2];
-
-  });
 }
+
+
+

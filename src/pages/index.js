@@ -1,7 +1,7 @@
 import './index.css';
-import { sliderLeftBtn, sliderLRightBtn} from '../scripts/utils/constants';
+import {quizContainer, sliderLeftBtn, sliderLRightBtn} from '../scripts/utils/constants';
 import {scrollCards} from '../scripts/utils/slider';
-import {quiz} from '../scripts/utils/quiz';
+import {clickCount, quiz} from '../scripts/utils/quiz';
 
 sliderLRightBtn.addEventListener('click', () => {
   scrollCards(250);
@@ -10,4 +10,9 @@ sliderLeftBtn.addEventListener('click', () => {
   scrollCards(-250);
 });
 
-quiz();
+quizContainer.addEventListener('click', quiz);
+
+if (clickCount > 5) {
+  console.log('dont work')
+  quizContainer.removeEventListener('click', quiz);
+}
