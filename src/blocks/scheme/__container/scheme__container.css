@@ -1,5 +1,5 @@
 .scheme__container {
   display: flex;
-  align-items: flex-end;
+  flex: 1 1 auto;
   gap: 15px;
 }
