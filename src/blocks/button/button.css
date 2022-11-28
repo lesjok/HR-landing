@@ -4,4 +4,5 @@
   border-radius: var(--border-radius-s);
   font-size: var(--font-size-main);
   border: none;
+  cursor: pointer;
 }

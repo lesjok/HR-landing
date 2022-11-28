@@ -1,0 +1,12 @@
+.hero {
+  margin: 0 auto;
+  max-width: 1160px;
+  background-image: url(../../images/main-background.png);
+  background-size: cover;
+  aspect-ratio: 1160 / 650;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  font-weight: var(--font-weight-500);
+  color: var(--white-color);
+}

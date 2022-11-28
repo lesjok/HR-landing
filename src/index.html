@@ -8,9 +8,10 @@
   <title>Работай и делись опытом в Яндекс.Практикум</title>
 </head>
 
-<body>
+<body class="page">
 
   <%= require('./partHTML/header.html?template').default %>
+
   <%= require('./partHTML/contact.html?raw') %>
 
 
@@ -80,15 +81,18 @@
 
 
 
+  <%= require('./partHTML/hero.html?raw') %>
+
+
 
 
 
   <%= require('./partHTML/reviews.html?template').default %>
 
 
-
-
+  <%= require('./partHTML/contact.html?raw') %>
+  <%= require('./partHTML/footer.html?raw') %>
 
 </body>
 
-</html>]
+</html>

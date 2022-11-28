@@ -1,7 +1,6 @@
 .contact {
   max-width: 1160px;
   margin: 150px auto;
-  font-family: var(--font-family-main);
   display: flex;
   flex-direction: column;
 }
