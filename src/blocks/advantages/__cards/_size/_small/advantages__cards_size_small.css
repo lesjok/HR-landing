@@ -1,9 +1,9 @@
-.advantages__cards_color_gray {
+.advantages__cards_size_small {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   gap: 40px;
+  margin-top: 40px;
 }
