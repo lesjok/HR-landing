@@ -1,5 +1,5 @@
 .quiz__left {
-  min-width: 560px;
+  max-width: 560px;
   width: 100%;
   box-sizing: border-box;
   padding: 51px 40px 40px 67px;

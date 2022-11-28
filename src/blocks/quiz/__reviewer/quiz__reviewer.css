@@ -4,4 +4,6 @@
   border-radius: var(--border-radius-m);
   color: var(--gray-color);
   background-color: var(--white-color);
+  border: none;
+  cursor: pointer;
 }
