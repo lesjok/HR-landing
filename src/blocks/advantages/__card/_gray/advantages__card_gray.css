@@ -1,0 +1,9 @@
+.advantages__card_gray {
+  padding: 50px;
+  padding-bottom: 56px;
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+  justify-content: space-between;
+  background-color: var(--gray_light-color);
+}

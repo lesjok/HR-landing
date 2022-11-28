@@ -1,0 +1,7 @@
+.advantages {
+  max-width: 1160px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: var(--font-family-YS);
+  padding-bottom: 150px;
+}
