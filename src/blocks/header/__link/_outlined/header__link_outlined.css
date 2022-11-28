@@ -3,5 +3,4 @@
   border: 1px solid #000;
   border-radius: var(--border-radius-xs);
   font-family: var(--font-family-main);
-  color: var(--gray-color);
 }
