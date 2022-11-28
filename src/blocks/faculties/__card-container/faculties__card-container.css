@@ -1,0 +1,21 @@
+.faculties__card-container {
+  display: flex;
+  position: relative;
+  align-self: center;
+  backface-visibility: hidden;
+  width: 360px;
+  min-height: 203px;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  transition: .5s;
+  border-radius: 15px;
+  color: #979797;
+}
+
+.faculties__card-container:hover .faculties__card-frontside {
+  transform: rotateY(-180deg)
+}
+
+.faculties__card-container:hover .faculties__card-backside {
+  transform: rotateY(0deg)
+}

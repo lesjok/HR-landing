@@ -1,6 +1,6 @@
 .hero {
   margin: 0 auto;
-  max-width: 1160px;
+  max-width: var(--max-width);
   background-image: url(../../images/main-background.png);
   background-size: cover;
   aspect-ratio: 1160 / 650;

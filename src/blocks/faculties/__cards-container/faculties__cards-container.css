@@ -1,0 +1,9 @@
+.faculties__cards-container {
+  max-width: 1160px;
+  display: flex;
+  gap: 40px;
+  margin: 40px 0 0;
+}
+.faculties__cards-container:first-of-type {
+  margin: 0;
+}

@@ -1,0 +1,15 @@
+.faculties__card-frontside {
+  height: 100%; 
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--white-color);
+  backface-visibility: hidden;
+  transform: rotateY(0deg);
+  transition: .5s;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

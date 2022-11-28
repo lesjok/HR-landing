@@ -1,6 +1,7 @@
-.contact {
-  max-width: var(--max-width);
+.faculties {
+  max-width: 1160px;
   margin: 150px auto;
+  padding: 0;
   display: flex;
   flex-direction: column;
 }
