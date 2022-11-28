@@ -1,0 +1,7 @@
+.quiz__teacher {
+  margin: 0;
+  padding: 40px;
+  border-radius: var(--border-radius-m);
+  color: var(--gray-color);
+  background-color: var(--white-color);
+}
