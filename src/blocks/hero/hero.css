@@ -1,5 +1,5 @@
 .hero {
-  margin: 0 auto;
+  margin: 20px auto 0;
   max-width: var(--max-width);
   background-image: url(../../images/main-background.png);
   background-size: cover;
