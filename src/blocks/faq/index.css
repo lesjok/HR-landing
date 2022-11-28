@@ -1,0 +1,7 @@
+@import url(./faq.css);
+@import url(./__list/faq__list.css);
+@import url(./__title/faq__title.css);
+@import url(./__item/faq__item.css);
+@import url(./__item/_last/faq__item_last.css);
+@import url(./__btn/faq__btn.css);
+@import url(./__text/faq__text.css);
