@@ -1,6 +1,14 @@
 .header {
-  margin: 50px auto;
+  margin: 50px auto 0;
+  padding: 20px;
+  box-sizing: border-box;
   max-width: var(--max-width);
   display: flex;
   justify-content: space-between;
+  background-color: var(--white-color);
+  border-radius: var(--border-radius-s);
+  position: sticky;
+  top: 0;
+  width: 100%; 
+  z-index: 3;
 }
