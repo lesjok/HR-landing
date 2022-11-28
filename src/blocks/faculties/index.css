@@ -1,0 +1,10 @@
+@import url(./faculties.css);
+@import url(./__cards-container/faculties__cards-container.css);
+@import url(./__card-container/faculties__card-container.css);
+@import url(./__card-container/_big/faculties__card-container_big.css);
+@import url(./__card-frontside/faculties__card-frontside.css);
+@import url(./__card-title/faculties__card-title.css);
+@import url(./__card-subtitle/faculties__card-subtitle.css);
+@import url(./__card-number/faculties__card-number.css);
+@import url(./__card-backside/faculties__card-backside.css);
+@import url(./__card-description/faculties__card-description.css);
