@@ -1,0 +1,7 @@
+.card__description {
+  margin: 0;
+  color: var(--gray-color);
+  flex: 1 0 auto;
+  font-size: var(--font-size-main);
+  line-height: var(--line-height-m);
+}

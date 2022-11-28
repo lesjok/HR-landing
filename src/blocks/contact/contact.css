@@ -1,0 +1,6 @@
+.contact {
+  max-width: var(--max-width);
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+}

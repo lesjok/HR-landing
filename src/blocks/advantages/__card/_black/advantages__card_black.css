@@ -1,0 +1,9 @@
+.advantages__card_black {
+  width: 360px;
+  background-color: var(--black-color);
+  text-align: center;
+  height: 184px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

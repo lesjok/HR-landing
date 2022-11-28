@@ -1,0 +1,141 @@
+@import url(../vendors/normalize.css);
+@import url(../vendors/variable.css);
+@import url(../vendors/fonts.css);
+
+/**** PAGE ****/
+
+@import url(../blocks/page/page.css);
+
+/**** BUTTON ****/
+
+@import url(../blocks/button/button.css);
+
+/**** HEADER ****/
+
+@import url(../blocks/header/index.css);
+
+
+
+
+
+
+/**** ADVANTAGES ****/
+
+@import url(../blocks/advantages/index.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**** CARD  ****/
+
+@import url(../blocks/card/index.css);
+
+/**** REVIEWS  ****/
+
+@import url(../blocks/reviews/index.css);
+
+/**** FOOTER ****/
+
+@import url(../blocks/footer/index.css);
+
+/**** CONTACT ****/
+
+@import url(../blocks/hero/index.css);
+
+/**** CONTACT ****/
+
+@import url(../blocks/contact/index.css);
+
+

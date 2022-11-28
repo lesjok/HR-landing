@@ -1,0 +1,5 @@
+.reviews {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 150px 0;
+}

@@ -1,0 +1,11 @@
+.reviews__button {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 50%;
+}

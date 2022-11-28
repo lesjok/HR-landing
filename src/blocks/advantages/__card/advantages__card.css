@@ -1,0 +1,11 @@
+.advantages__card {
+
+
+
+
+
+  row-gap: 20px;
+  border-radius: var(--border-radius-xs);
+  
+  box-sizing: border-box;
+}
