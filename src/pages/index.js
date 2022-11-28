@@ -1,6 +1,9 @@
 import './index.css';
 
- 
+
+
+// начало кода печатающегося хэдэра
+
 const headerTexts = [
   'в программировании',
   'в анализе данных',
@@ -61,3 +64,19 @@ function typeLine() {
 }
 
 typeLine();
+
+// конец кода
+
+
+
+
+import { sliderLeftBtn, sliderLRightBtn} from '../scripts/utils/constants';
+import {scrollCards} from '../scripts/utils/slider';
+
+sliderLRightBtn.addEventListener('click', () => {
+  scrollCards(250);
+});
+sliderLeftBtn.addEventListener('click', () => {
+  scrollCards(-250);
+});
+

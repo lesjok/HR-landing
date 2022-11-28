@@ -1,0 +1,10 @@
+.scheme__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 300px;
+  flex: 1 1 auto;
+}

@@ -1,0 +1,5 @@
+.quiz__right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

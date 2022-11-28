@@ -1,0 +1,8 @@
+.about__item {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-xl);
+  font-weight: var(--font-weight-500);
+  color: var(--white-color);
+  display: flex;
+  gap: 40px;
+}

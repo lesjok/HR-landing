@@ -1,6 +1,9 @@
 .page{
   background-color: var(--grayish-color);
   font-family: var(--font-family-YS);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-main);
+  line-height: var(--line-height-m);
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;

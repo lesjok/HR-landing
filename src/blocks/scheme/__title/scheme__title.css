@@ -1,0 +1,8 @@
+.scheme__title {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-xl);
+  font-weight: var(--font-weight-500);
+  color: var(--black-color);
+  text-align: center;
+}

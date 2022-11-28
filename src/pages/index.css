@@ -53,6 +53,14 @@
 
 
 
+/**** ABOUT ****/
+
+@import url(../blocks/about/index.css);
+
+
+/**** SCHEME ****/
+
+@import url(../blocks/scheme/index.css);
 
 
 
@@ -60,11 +68,9 @@
 
 
 
+/**** QUIZ ****/
 
-
-
-
-
+@import url(../blocks/quiz/index.css);
 
 
 
