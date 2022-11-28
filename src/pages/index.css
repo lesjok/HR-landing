@@ -6,6 +6,11 @@
 
 @import url(../blocks/page/page.css);
 
+/**** TITLES ****/
+
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+
 /**** BUTTON ****/
 
 @import url(../blocks/button/button.css);
@@ -104,10 +109,9 @@
 
 
 
+/**** FACULTIES  ****/
 
-
-
-
+@import url(../blocks/faculties/index.css);
 
 /**** CARD  ****/
 
