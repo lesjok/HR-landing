@@ -71,8 +71,6 @@ typeLine();
 
 
 
-import { sliderLeftBtn, sliderLRightBtn} from '../scripts/utils/constants';
-
 import {scrollCards} from '../scripts/utils/slider';
 import {clickCount, quiz} from '../scripts/utils/quiz';
 
