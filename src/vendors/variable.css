@@ -15,10 +15,13 @@
   --font-size-main: 18px;
   --font-size-l: 30px;
   --font-size-s: 14px;
+  --font-size-xl: 36px;
+  --font-size-2xl: 60px;
   --line-height-s: 16px;
   --line-height-m: 22px;
   --line-height-l: 36px;
   --line-height-xl: 42px;
+  --line-height-2xl: 68px;
   --max-width: 1160px;
   --breakpoint-sm: 640px;
   --breakpoint-md: 768px;
@@ -29,6 +32,7 @@
   --border-radius-m: 25px;
   --border-radius-l: 40px;
   --border-radius-xl: 50px;
+  --border-radius-mxl: 70px;
   --border-radius-2xl: 100px;
 }
 

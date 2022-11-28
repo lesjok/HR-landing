@@ -1,0 +1,10 @@
+.scheme {
+  width: 560px;
+  background-color: var(--white-color);
+  border-radius: var(--border-radius-m);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
