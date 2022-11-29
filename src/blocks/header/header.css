@@ -9,6 +9,30 @@
   border-radius: var(--border-radius-s);
   position: sticky;
   top: 0;
-  width: 100%; 
+  width: 100%;
   z-index: 3;
+}
+
+
+@media screen and (max-width: 1280px) {
+  .header {}
+}
+
+@media screen and (max-width: 1024px) {
+  .header {}
+}
+
+@media screen and (max-width: 768px) {
+  .header {}
+}
+
+@media screen and (max-width: 640px) {
+  .header {
+    flex-direction: column;
+    min-width: var(--max-width-sm);
+    width: 300px;
+    padding: 0;
+    margin: 10px auto;
+    background: none;
+  }
 }

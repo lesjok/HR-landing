@@ -1,4 +1,5 @@
 .reviews {
-  margin: 100px 0 0 160px;
+  max-width: var(--max-width);
+  margin: 100px auto 0;
   padding: 0;
 }

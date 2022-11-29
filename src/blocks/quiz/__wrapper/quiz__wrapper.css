@@ -1,0 +1,13 @@
+.quiz__wrapper {
+  max-width: 560px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 119px 96px 132px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  border-radius: var(--border-radius-m);
+  background-color: var(--white-color);
+  position: relative;
+}

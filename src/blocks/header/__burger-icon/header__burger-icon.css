@@ -1,0 +1,14 @@
+.header__burger-icon {
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .header__burger-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .header__burger-icon:hover {
+    transform: scale(1.2);
+  }
+}

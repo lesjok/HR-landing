@@ -4,3 +4,10 @@
   display: flex;
   gap: 50px;
 }
+
+@media screen and (max-width: 640px) {
+  .header__nav-items {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

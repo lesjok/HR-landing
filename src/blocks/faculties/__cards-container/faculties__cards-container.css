@@ -7,3 +7,15 @@
 .faculties__cards-container:first-of-type {
   margin: 20px 0 0;
 }
+
+@media screen and (max-width: 640px) {
+  .faculties__cards-container {
+    margin: 20px 0 0;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .faculties__cards-container:first-of-type {
+    margin: 0;
+  }
+}
