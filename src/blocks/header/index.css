@@ -1,6 +1,10 @@
 @import url(../header/header.css);
+@import url(../header/__mob/header__mob.css);
+@import url(../header/__logo-link/header__logo-link.css);
 @import url(../header/__logo/header__logo.css);
+@import url(../header/__burger-icon/header__burger-icon.css);
 @import url(../header/__nav/header__nav.css);
+@import url(../header/__nav/_active/header__nav_active.css);
 @import url(../header/__nav-items/header__nav-items.css);
 @import url(../header/__nav-item/header__nav-item.css);
 @import url(../header/__link/header__link.css);

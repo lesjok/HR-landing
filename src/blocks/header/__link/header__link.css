@@ -3,3 +3,12 @@
   text-decoration: none;
   align-self: center;
 }
+
+@media screen and (max-width: 640px) {
+  .header__link {
+    font-family: 'YS Display';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

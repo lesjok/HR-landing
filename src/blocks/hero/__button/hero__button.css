@@ -10,3 +10,13 @@
   font-weight: var(--font-weight-500);
   line-height: 60px;
 }
+
+@media screen and (max-width: 640px) {
+  .hero__button {
+    font-size: 14px;
+    line-height: 2.57;
+    max-width: 202px;
+    padding: 0 16px;
+    margin: 0 0 20px;
+  }
+}
