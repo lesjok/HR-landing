@@ -6,11 +6,12 @@ import { typingText } from '../scripts/utils/typingText';
 import { clickCount, quiz } from '../scripts/utils/quiz';
 import { scrollUp } from '../scripts/utils/scrollUp'
 import {srollToAnchors} from '../scripts/utils/srollToAnchors'
+import {accordeon} from '../scripts/utils/accordeon';
 
 document.addEventListener('DOMContentLoaded', scrollUp);
 
 srollToAnchors();
-
+accordeon()
 
 sliderLRightBtn.addEventListener('mousedown', () => {
   scrollCards(250);

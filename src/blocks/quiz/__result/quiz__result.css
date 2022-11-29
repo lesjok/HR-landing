@@ -1,5 +1,5 @@
 .quiz__result {
-  width: 345px;
+  width: 300px;
   border: 1px solid var(--blue-color);
   border-radius: var(--border-radius-2xl);
   color: var(--white-color);
