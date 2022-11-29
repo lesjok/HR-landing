@@ -1,0 +1,7 @@
+.offers__card-title {
+  margin: 0;
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-l);
+  line-height: var(--line-height-l);
+  max-width: 360px;
+}

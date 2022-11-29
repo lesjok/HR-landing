@@ -1,0 +1,18 @@
+.offers__list-btn {
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: var(--white-color);
+  border-radius: var(--border-radius-s);
+  height: 49px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.offers__list-btn.active {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}

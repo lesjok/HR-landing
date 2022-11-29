@@ -1,0 +1,11 @@
+.offers__button {
+  min-width: 560px;
+  height: 205px;
+  box-sizing: border-box;
+  background-color: var(--white-color);
+  border-radius: var(--border-radius-m);
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  text-align: left;
+}

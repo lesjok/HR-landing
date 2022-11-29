@@ -1,0 +1,16 @@
+.offers__select-btn {
+  border: none;
+  background-color: var(--black-color);
+  cursor: pointer;
+  color: var(--white-color);
+  border-radius: var(--border-radius-xs);
+  width: 219px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+  line-height: 50px;
+}
