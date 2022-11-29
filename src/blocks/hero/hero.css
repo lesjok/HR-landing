@@ -10,3 +10,17 @@
   font-weight: var(--font-weight-500);
   color: var(--white-color);
 }
+
+@media screen and (max-width: 640px) {
+  .hero {
+    flex-direction: column;
+    max-width: var(--max-width-sm);
+    background-image: url(../../images/main-background-small.png);
+    margin: 0 auto;
+    aspect-ratio: 300 / 425;
+    background-size: cover;
+    border-radius: 16px;
+    background-position: center;
+    justify-content: space-between;
+  }
+}

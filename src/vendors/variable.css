@@ -23,6 +23,7 @@
   --line-height-xl: 42px;
   --line-height-2xl: 68px;
   --max-width: 1160px;
+  --max-width-sm: 300px;
   --breakpoint-sm: 640px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 1024px;
@@ -36,4 +37,3 @@
   --border-radius-2xl: 100px;
   --section-margin: 100px auto 0;
 }
-

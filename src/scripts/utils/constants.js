@@ -44,4 +44,9 @@ export const quizAnswers = {
 export const modal = document.querySelector('.modal');
 export const modalContent = document.querySelector('.modal__content');
 
+
+export const burgerButton = document.querySelector('.header__burger-icon');
+export const headerNav = document.querySelector('.header__nav');
+
 export const faqButtons = document.querySelectorAll('.faq__btn');
+

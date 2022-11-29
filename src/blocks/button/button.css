@@ -6,3 +6,13 @@
   border: none;
   cursor: pointer;
 }
+
+@media screen and (max-width: 640px) {
+  .button:hover {
+    background-color: #005CFF;
+  }
+
+  .button:active {
+    background-color: #004ED9;
+  }
+}
