@@ -44,3 +44,11 @@ export const modal = document.querySelector('.modal');
 export const modalContent = document.querySelector('.modal__content');
 
 export const faqButtons = document.querySelectorAll('.faq__btn');
+
+export const selectHeader = document.querySelectorAll('.offers__select-header');
+export const selectItem = document.querySelectorAll('.offers__select-item');
+export const offersButtons = document.querySelectorAll('.offers__list-btn');
+
+export const sliderContainerOffers = document.querySelector('.offers__cards');
+export const sliderOffersLeftBtn = document.querySelector('.offers__slider-btn_left');
+export const sliderOffersLRightBtn = document.querySelector('.offers__slider-btn_right');
