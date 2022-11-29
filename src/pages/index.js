@@ -4,6 +4,8 @@ import {quizContainer, sliderLeftBtn, sliderLRightBtn} from '../scripts/utils/co
 import { scrollCards } from '../scripts/utils/slider';
 import { typingText } from '../scripts/utils/typingText';
 import {clickCount, quiz} from '../scripts/utils/quiz';
+import { accordeon } from '../scripts/utils/accordeon';
+
 
 
 sliderLRightBtn.addEventListener('click', () => {
