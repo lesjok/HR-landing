@@ -1,0 +1,15 @@
+.quiz__result {
+  width: 345px;
+  border: 1px solid var(--blue-color);
+  border-radius: var(--border-radius-2xl);
+  color: var(--white-color);
+  display: flex;
+  font-size: var(--font-size-s);
+  font-weight: var(--font-weight-500);
+  justify-content: center;
+  line-height: 50px;
+  outline: none;
+  padding: 0 28px;
+  background-color: var(--blue-color);
+  cursor: pointer;
+}

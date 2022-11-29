@@ -5,6 +5,5 @@
   display: flex;
   gap: 40px;
   max-width: var(--max-width);
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: hidden;
 }

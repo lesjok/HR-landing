@@ -1,0 +1,6 @@
+.quiz__count {
+  margin: 0;
+  font-size: var(--font-size-l);
+  line-height: var(--line-height-l);
+  color: var(--black-color);
+}

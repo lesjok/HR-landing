@@ -1,7 +1,7 @@
 .about {
   max-width: var(--max-width);
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: var(--section-margin);
   padding: 50px 100px;
   display: flex;
   flex-direction: column;

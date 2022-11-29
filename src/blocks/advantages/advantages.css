@@ -1,6 +1,6 @@
 .advantages {
   max-width: var(--max-width);
   box-sizing: border-box;
-  margin: 100px auto 0;
+  margin: var(--section-margin);
   font-family: var(--font-family-YS);
 }

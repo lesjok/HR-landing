@@ -72,13 +72,17 @@
 
 
 
+/**** QUIZ ****/
+
+@import url(../blocks/quiz/index.css);
 
 
 
 
 
+/**** MODAL ****/
 
-
+@import url(../blocks/modal/index.css);
 
 
 

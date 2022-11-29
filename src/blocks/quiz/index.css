@@ -1,0 +1,11 @@
+@import url(./quiz.css);
+@import url(./__button/quiz__button.css);
+@import url(./__title/quiz__title.css);
+@import url(./__subtitle/quiz__subtitle.css);
+@import url(./__right/quiz__right.css);
+@import url(./__left/quiz__left.css);
+@import url(./__answer/quiz__answer.css);
+@import url(./__count/quiz__count.css);
+@import url(./__result/quiz__result.css);
+@import url(./__reviewer/quiz__reviewer.css);
+@import url(./__teacher/quiz__teacher.css);
