@@ -1,7 +1,7 @@
 .faq {
   max-width: var(--max-width);
   box-sizing: border-box;
-  margin: 150px auto 0;
+  margin: var(--section-margin);
   background-color: var(--white-color);
   padding: 50px 100px 100px;
   border-radius: var(--border-radius-xl);

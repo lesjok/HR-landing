@@ -1,6 +1,16 @@
 export const sliderLeftBtn = document.querySelector('.reviews__button_left');
 export const sliderLRightBtn = document.querySelector('.reviews__button_right');
 export const sliderContainer = document.querySelector('.reviews__cards');
+
+export const headerLine = document.querySelector('.hero__title_dynamic');
+export const headerTexts = [
+  'в программировании',
+  'в анализе данных',
+  'в менеджменте',
+  'в маркетинге',
+  'в дизайне',
+];
+
 export const quizContainer = document.querySelector('.quiz');
 export const quizQuestionsCount = document.querySelector('.quiz__answer');
 export const quizQuestionNext = document.querySelector('.quiz__button');
@@ -30,3 +40,4 @@ export const quizAnswers = {
 }
 export const modal = document.querySelector('.modal');
 export const modalContent = document.querySelector('.modal__content');
+
