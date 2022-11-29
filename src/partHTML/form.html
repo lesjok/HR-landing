@@ -10,20 +10,20 @@
 
   <div class="form__inputs">
     <label class="form__label">
-      <input type="text" class="form__input form__input_type_name" name="name" id="name"
-             placeholder="ФИО">
+      <input type="text" class="form__input form__input_type_name" name="name" id="name">
+      <span class="form__placeholder">ФИО</span>
       <span class="form__error-message name-error"></span>
     </label>
 
-    <label class="form__label">
-      <input type="date" class="form__input form__input_type_" name="" id=""
-             placeholder="">
-      <span class="form__error-message -error"></span>
-    </label>
+    <select class="form__select" id="role" name="role">
+      <option value="">Какая роль вам ближе</option>
+      <option value="teacher">Наставник</option>
+      <option value="reviewer">Ревьювер</option>
+    </select>
 
     <label class="form__label">
-      <input type="text" class="form__input form__input_type_" name="" id=""
-             placeholder="">
+      <input type="date" class="form__input form__input_type_data" name="data" id="data">
+      <span class="form__placeholder">Дата рождения</span>
       <span class="form__error-message -error"></span>
     </label>
 
