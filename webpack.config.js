@@ -11,6 +11,11 @@ module.exports = {
     publicPath: '',
     clean: true,
   },
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+    },
+  },
   mode: 'development',
   devtool: 'source-map',
   devServer: {
