@@ -1,0 +1,5 @@
+.scroll-up_visible {
+  opacity: 1;
+  visibility: visible;
+  right: calc(4%);
+}
