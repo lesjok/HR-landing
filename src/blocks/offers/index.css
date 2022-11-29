@@ -1,0 +1,17 @@
+@import url(./offers.css);
+@import url(./__nav/offers__nav.css);
+@import url(./__select/offers__select.css);
+@import url(./__select-btn/offers__select-btn.css);
+@import url(./__list-btn/offers__list-btn.css);
+@import url(./__title/offers__title.css);
+@import url(./__list/offers__list.css);
+@import url(./__item/offers__item.css);
+@import url(./__button/offers__button.css);
+@import url(./__item/_active/offers__item_active.css);
+@import url(./__cards/offers__cards.css);
+@import url(./__card/offers__card.css);
+@import url(./__button/_frontend/offers__button_frontend.css);
+@import url(./__button/_python/offers__button_python.css);
+@import url(./__card-title/offers__card-title.css);
+@import url(./__card-text/offers__card-text.css);
+@import url(./__span/offers__span.css);

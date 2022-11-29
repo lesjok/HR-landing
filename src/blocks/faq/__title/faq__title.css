@@ -1,8 +1,4 @@
 .faq__title {
-  margin: 0;
-  margin-bottom: 50px;
-  line-height: 68px;
-  font-weight: var(--font-weight-500);
+  margin-bottom: 60px;
   text-align: center;
-  font-size: 60px;
 }

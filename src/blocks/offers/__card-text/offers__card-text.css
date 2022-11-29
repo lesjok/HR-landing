@@ -1,0 +1,9 @@
+.offers__card-text {
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-main);
+  line-height: var(--line-height-m);
+  color: var(--gray-color);
+  max-width: 233px;
+  margin: 0;
+  margin-top: 11px;
+}
