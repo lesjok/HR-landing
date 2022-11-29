@@ -1,3 +1,6 @@
 .offers__card {
   margin-right: 40px;
 }
+.offers__card:last-child .offers__card-title {
+  max-width: 438px;
+}

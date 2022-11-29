@@ -1,5 +1,6 @@
 import './index.css';
 
+import { select, selectProgram } from '../scripts/utils/offers-select';
 
 import { quizContainer, sliderLeftBtn, sliderLRightBtn, burgerButton, headerNav } from '../scripts/utils/constants';
 import { getCoordinate, scrollCards } from '../scripts/utils/slider';
@@ -8,6 +9,8 @@ import { clickCount, quiz } from '../scripts/utils/quiz';
 import { scrollUp } from '../scripts/utils/scrollUp'
 import { srollToAnchors } from '../scripts/utils/srollToAnchors'
 import { accordeon } from '../scripts/utils/accordeon';
+
+import { scrollOffersCards } from '../scripts/utils/offers-slider';
 
 document.addEventListener('DOMContentLoaded', scrollUp);
 
@@ -20,6 +23,7 @@ sliderLRightBtn.addEventListener('mousedown', () => {
 sliderLeftBtn.addEventListener('mousedown', () => {
   scrollCards(-250);
 });
+
 
 
 quizContainer.addEventListener('click', quiz);

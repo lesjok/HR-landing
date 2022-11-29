@@ -1,3 +1,7 @@
 .offers__select {
   margin-right: 20px;
 }
+.offers__select.is-active .offers__select-body {
+  display: flex;
+}
+

@@ -1,0 +1,17 @@
+.offers__select-body {
+  border: none;
+  background-color: var(--white-color);
+  cursor: pointer;
+  color: var(--black-color);
+  border-radius: var(--border-radius-xs);
+  width: 219px;
+  height: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+  line-height: 50px;
+  display: none;
+  align-items: center;
+  margin-top: 5px;
+  position: absolute;
+}
