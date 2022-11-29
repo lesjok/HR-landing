@@ -8,7 +8,7 @@ export function typeLine() {
   let interval = setTimeout(
     () => {
       result += headerTexts[line][count]
-      console.log(result)
+
       headerLine.textContent = result + '|';
       count++;
 

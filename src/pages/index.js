@@ -1,7 +1,7 @@
 import './index.css';
 
-import { quizContainer, sliderLeftBtn, sliderLRightBtn } from '../scripts/utils/constants';
-import { scrollCards } from '../scripts/utils/slider';
+import {quizContainer, sliderContainer, sliderLeftBtn, sliderLRightBtn} from '../scripts/utils/constants';
+import {getCoordinate, scrollCards} from '../scripts/utils/slider';
 import { typingText } from '../scripts/utils/typingText';
 import { clickCount, quiz } from '../scripts/utils/quiz';
 import { scrollUp } from '../scripts/utils/scrollUp'
@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', scrollUp);
 srollToAnchors();
 
 
-sliderLRightBtn.addEventListener('click', () => {
+sliderLRightBtn.addEventListener('mousedown', () => {
   scrollCards(250);
 });
-sliderLeftBtn.addEventListener('click', () => {
+sliderLeftBtn.addEventListener('mousedown', () => {
   scrollCards(-250);
 });
 
