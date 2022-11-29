@@ -9,3 +9,7 @@
 @import url(./__result/quiz__result.css);
 @import url(./__reviewer/quiz__reviewer.css);
 @import url(./__teacher/quiz__teacher.css);
+@import url(./__role/quiz__role.css);
+@import url(./__wrapper/quiz__wrapper.css);
+@import url(./__role/quiz__role_reviewer.css);
+@import url(./__role/quiz__role_teacher.css);

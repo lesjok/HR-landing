@@ -2,7 +2,7 @@ import {
   modal, modalContent,
   quizAnswers,
   quizQuestionsCount,
-  quizReviewerBtn,
+  quizReviewerBtn, quizRole,
   quizTeacherBtn
 } from './constants';
 
@@ -32,12 +32,20 @@ export const quiz = (evt) => {
     if (clickCount === 5) {
 
       if (teacherCount > reviewerCount) {
-        modalContent.textContent = 'Вы наставник'
+        quizRole.innerHTML = `<div class="quiz__wrapper">
+        <h3 class="quiz__role">Вам подходит роль <span class="quiz__role_teacher">наставника!</span> </h3>
+            <button class="quiz__result">
+      Перейти к&nbsp;предложениям
+    </button></div>`
       } else {
-        modalContent.textContent = 'Вы ревьювер'
+        quizRole.innerHTML = `
+<div class="quiz__wrapper">
+        <h3 class="quiz__role">Вам подходит роль <span class="quiz__role_reviewer">ревьюера!</span></h3>
+            <button class="quiz__result">
+      Перейти к&nbsp;предложениям
+        </button></div>
+`
       }
-      modal.classList.add('modal_opened');
-
     }
   }
 

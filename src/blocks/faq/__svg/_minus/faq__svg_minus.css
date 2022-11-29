@@ -1,0 +1,6 @@
+.faq__svg_minus {
+  display: none;
+}
+.faq__svg_minus.active {
+  display: block;
+}
