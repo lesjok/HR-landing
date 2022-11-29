@@ -42,3 +42,5 @@ export const quizAnswers = {
 }
 export const modal = document.querySelector('.modal');
 export const modalContent = document.querySelector('.modal__content');
+
+export const faqButtons = document.querySelectorAll('.faq__btn');
