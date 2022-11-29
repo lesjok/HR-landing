@@ -1,6 +1,6 @@
 .quiz {
   max-width: var(--max-width);
-  margin: 0 auto;
+  margin: var(--section-margin);
   display: flex;
   gap: 40px;
 }
