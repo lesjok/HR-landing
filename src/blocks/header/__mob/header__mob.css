@@ -1,0 +1,9 @@
+.header__mob {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white-color);
+  border-radius: 12px;
+  padding: 10px;
+  box-sizing: border-box;
+}
