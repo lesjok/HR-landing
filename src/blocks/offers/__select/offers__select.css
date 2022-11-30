@@ -1,7 +1,13 @@
 .offers__select {
   margin-right: 20px;
+  list-style: none;
 }
 .offers__select.is-active .offers__select-body {
   display: flex;
+}
+@media screen and (max-width: 470px) {
+  .offers__select{
+    margin-right: 0;
+  }
 }
 
