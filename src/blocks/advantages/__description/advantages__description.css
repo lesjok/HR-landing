@@ -1,6 +1,6 @@
 .advantages__description {
   margin: 0;
-  width: 335px;
+  max-width: 326px;
   font-size: var(--font-size-main);
   line-height: var(--line-height-m);
 }

@@ -2,7 +2,8 @@ import {
   modal, modalContent,
   quizAnswers,
   quizQuestionsCount,
-  quizReviewerBtn, quizRole,
+  quizReviewerBtn, 
+  quizRole,
   quizTeacherBtn
 } from './constants';
 

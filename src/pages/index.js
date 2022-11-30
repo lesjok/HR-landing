@@ -2,7 +2,16 @@ import './index.css';
 
 import { select, selectProgram } from '../scripts/utils/offers-select';
 
-import { quizContainer, sliderLeftBtn, sliderLRightBtn, burgerButton, headerNav } from '../scripts/utils/constants';
+import {
+  quizContainer,
+  sliderLeftBtn,
+  sliderLRightBtn,
+  burgerButton,
+  headerNav,
+  quizReviewerBtn,
+  quizTeacherBtn
+} from '../scripts/utils/constants';
+
 import { getCoordinate, scrollCards } from '../scripts/utils/slider';
 import { typingText } from '../scripts/utils/typingText';
 import { clickCount, quiz } from '../scripts/utils/quiz';
@@ -26,7 +35,8 @@ sliderLeftBtn.addEventListener('mousedown', () => {
 
 
 
-quizContainer.addEventListener('click', quiz);
+quizTeacherBtn.addEventListener('click', quiz);
+quizReviewerBtn.addEventListener('click', quiz);
 
 if (clickCount > 5) {
   console.log('dont work')
@@ -37,7 +47,3 @@ if (clickCount > 5) {
 burgerButton.addEventListener('click', () => {
   headerNav.classList.toggle('header__nav_active');
 });
-
-console.log(burgerButton)
-console.log(headerNav)
-

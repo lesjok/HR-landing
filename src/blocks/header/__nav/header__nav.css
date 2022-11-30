@@ -1,5 +1,6 @@
 .header__nav {
   align-self: center;
+  max-height: 40px;
 }
 
 @media screen and (max-width: 640px) {

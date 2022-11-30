@@ -3,4 +3,6 @@
   margin: var(--section-margin);
   display: flex;
   gap: 40px;
+  max-height: 407px;
+  box-sizing: border-box;
 }

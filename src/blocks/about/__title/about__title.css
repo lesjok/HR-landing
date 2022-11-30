@@ -1,7 +1,7 @@
 .about__title {
   margin: 0;
-  font-size: var(--font-size-2xl);
-  line-height: var(--line-height-2xl);
+  font-size: 50px;
+  line-height: 59px;
   font-weight: var(--font-weight-500);
   color: var(--white-color);
 }
