@@ -13,12 +13,16 @@
   .footer {
     max-width: var(--max-width-sm);
     flex-direction: column;
+    
   }
 }
 @media screen and (max-width: 470px) {
   .footer {
     width: 300px;
     padding: 40px 20px;
-    border-radius: var(--border-radius-s);
+    border-radius: var(--border-radius-s) var(--border-radius-s) 0 0;
+    max-height: 880px;
+    overflow: hidden;
+    margin: 60px auto 0;
   }
 }

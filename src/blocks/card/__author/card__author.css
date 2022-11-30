@@ -6,3 +6,9 @@
   flex-direction: column;
   flex: 0 0 auto;
 }
+
+@media screen and (max-width: 640px) {
+  .card__author {
+    padding: 0 0 20px;
+  }
+}

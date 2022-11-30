@@ -1,5 +1,5 @@
 .quiz__result {
-  width: 300px;
+  max-width: 300px;
   border-radius: var(--border-radius-2xl);
   display: flex;
   font-size: var(--font-size-s);
@@ -7,4 +7,13 @@
   justify-content: center;
   line-height: 60px;
   padding: 0 28px;
+}
+
+@media screen and (max-width: 640px) {
+  .quiz__result {
+    max-width: 255px;
+    padding: 0 41px;
+    font-size: 14px;
+    line-height: 36px;
+  }
 }
