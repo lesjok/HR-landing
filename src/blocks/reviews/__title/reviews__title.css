@@ -2,3 +2,10 @@
   margin: 0;
   font-weight: var(--font-weight-500);
 }
+
+@media screen and (max-width: 640px) {
+  .reviews__title {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+}

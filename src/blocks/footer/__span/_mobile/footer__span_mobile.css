@@ -1,0 +1,9 @@
+.footer__span_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 470px) {
+  .footer__span_mobile {
+    display: block;
+  }
+}

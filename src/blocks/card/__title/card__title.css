@@ -5,3 +5,11 @@
   line-height: var(--line-height-l);
   font-weight: var(--font-weight-400);
 }
+
+@media screen and (max-width: 640px) {
+  .card__title {
+    max-width: 245px;
+    font-size: 14px;
+    line-height: 1.3;
+  }
+}

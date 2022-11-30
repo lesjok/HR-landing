@@ -1,0 +1,9 @@
+
+.footer__span_desktop {
+  display: inline;
+}
+@media screen and (max-width: 470px) {
+  .footer__span_desktop {
+    display: none;
+  }
+}

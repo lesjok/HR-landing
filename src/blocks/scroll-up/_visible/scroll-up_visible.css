@@ -3,3 +3,9 @@
   visibility: visible;
   right: calc(4%);
 }
+
+@media screen and (max-width: 640px) {
+  .scroll-up_visible {
+    visibility: hidden;
+  }
+}

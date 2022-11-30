@@ -7,3 +7,5 @@
 @import url(./__button/reviews__button.css);
 @import url(./__button/reviews__button_right.css);
 @import url(./__btn/reviews__btn.css);
+@import url(./__btn/_desktop/reviews__btn_desktop.css);
+@import url(./__btn/_mob/reviews__btn_mob.css);
