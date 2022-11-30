@@ -4,3 +4,10 @@
   line-height: var(--line-height-l);
   color: var(--gray-color);
 }
+
+@media screen and (max-width: 640px) {
+  .quiz__subtitle {
+    font-size: 14px;
+    line-height: 130%;
+  }
+}

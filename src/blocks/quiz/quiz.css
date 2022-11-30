@@ -6,3 +6,11 @@
   max-height: 407px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 640px) {
+  .quiz {
+    max-width: var(--max-width-sm);
+    flex-direction: column;
+    gap: 20px;
+  }
+}
