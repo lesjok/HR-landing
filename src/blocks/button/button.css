@@ -1,18 +1,19 @@
 .button {
-  background-color: var(--black-color);
+  background-color: var(--blue-color);
   color: var(--white-color);
   border-radius: var(--border-radius-s);
-  font-size: var(--font-size-main);
   border: none;
   cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  line-height: 50px;
+  transition: background-color .3s;
 }
 
-@media screen and (max-width: 640px) {
-  .button:hover {
-    background-color: #005CFF;
-  }
+.button:hover {
+  background-color: #005CFF;
+}
 
-  .button:active {
-    background-color: #004ED9;
-  }
+.button:active {
+  background-color: #004ED9;
 }

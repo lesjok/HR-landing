@@ -41,7 +41,7 @@ export const quiz = (evt) => {
         quizRole.innerHTML = `
 <div class="quiz__wrapper">
         <h3 class="quiz__role">Вам подходит роль <span class="quiz__role_reviewer">ревьюера!</span></h3>
-            <button class="quiz__result">
+            <button class="button quiz__result">
       Перейти к&nbsp;предложениям
         </button></div>
 `

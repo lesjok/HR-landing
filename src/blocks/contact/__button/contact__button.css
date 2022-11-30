@@ -1,8 +1,9 @@
 .contact__button {
   margin: 40px 0 0;
-  padding: 10px 95px;
+  padding: 0px 107.5px;
   max-width: 360px;
   align-self: center;
+  border-radius: 100px;
 }
 
 @media screen and (max-width: 640px) {
@@ -11,7 +12,5 @@
     max-width: 180px;
     font-size: 14px;
     line-height: 36px;
-    background-color: #3073E8;
-    border-radius: 100px;
   }
 }

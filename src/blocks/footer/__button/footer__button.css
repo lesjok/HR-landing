@@ -1,6 +1,4 @@
 .footer__button {
-  border: 1px solid var(--black-color);
-  outline: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,5 +7,5 @@
   font-weight: var(--font-weight-500);
   font-size: var(--font-size-s);
   line-height: var(--line-height-l);
-  color: var(--white-color);
+  text-decoration: underline;
 }
