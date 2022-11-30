@@ -4,3 +4,9 @@
   font-size: 36px;
   line-height: var(--line-height-xl);
 }
+@media screen and (max-width: 470px) {
+  .advantages__subtitle {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
