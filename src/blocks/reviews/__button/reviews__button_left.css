@@ -1,5 +1,3 @@
 .reviews__button_left {
-  background-image: url(../../../images/left.svg);
-  background-repeat: no-repeat;
-  background-position: 50%;
+  transform: rotateZ(-90deg);
 }

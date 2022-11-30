@@ -2,8 +2,8 @@
   margin: 0 0 40px;
   padding: 0;
   font-weight: var(--font-weight-500);
-  font-size: calc(var(--font-size-l) * 2);
-  line-height: 68px;
+  font-size: 60px;
+  line-height: 70px;
   color: var(--black-color);
 }
 

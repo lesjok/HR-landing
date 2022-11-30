@@ -24,7 +24,7 @@ export function typeLine() {
         }
       }
       typeLine();
-    }, 100)
+    }, 180)
 }
 
 typeLine();
