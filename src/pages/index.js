@@ -19,7 +19,7 @@ import { scrollUp } from '../scripts/utils/scrollUp'
 import { srollToAnchors } from '../scripts/utils/srollToAnchors'
 import { accordeon } from '../scripts/utils/accordeon';
 
-import { scrollOffersCards } from '../scripts/utils/offers-slider';
+import { filter } from '../scripts/utils/offers-filter';
 
 document.addEventListener('DOMContentLoaded', scrollUp);
 

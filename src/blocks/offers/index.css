@@ -7,7 +7,6 @@
 @import url(./__select-item/offers__select-item.css);
 @import url(./__input/offers__input.css);
 @import url(./__arrow/offers__arrow.css);
-@import url(./__list-btn/offers__list-btn.css);
 @import url(./__title/offers__title.css);
 @import url(./__list/offers__list.css);
 @import url(./__item/offers__item.css);
@@ -20,6 +19,3 @@
 @import url(./__card-title/offers__card-title.css);
 @import url(./__card-text/offers__card-text.css);
 @import url(./__span/offers__span.css);
-@import url(./__slider-btns/offers__slider-btns.css);
-@import url(./__slider-btn/offers__slider-btn.css);
-@import url(./__slider-btn/_right/offers__slider-btn_right.css);

@@ -1,12 +1,21 @@
-.offers__card {
-  margin-right: 40px;
+.offers__card.hide {
+  display: none;
 }
-.offers__card:last-child .offers__card-title {
-  max-width: 438px;
+.offers__card:nth-child(10) .offers__card-title{
+  width: 503px;
+}
+.offers__card:nth-child(5) .offers__card-title {
+  width: 444px;
 }
 @media screen and (max-width: 470px) {
   .offers__card {
     margin-right: 0;
     width: 300px;
+  }
+  .offers__card:nth-child(10) .offers__card-title {
+    width: 243px;
+  }
+  .offers__card:nth-child(5) .offers__card-title {
+    width: 225px;
   }
 }
