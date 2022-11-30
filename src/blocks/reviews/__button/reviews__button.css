@@ -8,4 +8,8 @@
   cursor: pointer;
   background-color: transparent;
   border-radius: 50%;
+  background-image: url(../../../images/scroll_up.svg);
+  background-position: 50%;
+  filter: invert(1);
+  border: none;
 }
