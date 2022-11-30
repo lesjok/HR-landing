@@ -12,5 +12,7 @@
     max-width: var(--max-width-sm);
     flex-direction: column;
     gap: 20px;
+    min-height: 479px;
+    margin: 60px auto 0;
   }
 }

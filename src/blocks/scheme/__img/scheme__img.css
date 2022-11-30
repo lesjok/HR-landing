@@ -4,3 +4,9 @@
   bottom: 120px;
   width: 156px;
 }
+
+@media screen and (max-width: 640px) {
+  .scheme__img {
+    position: unset;
+  }
+}

@@ -9,3 +9,11 @@
   gap: 40px;
   position: relative;
 }
+
+@media screen and (max-width: 640px) {
+  .scheme {
+    max-width: 240px;
+    padding: 20px;
+    gap: 20px;
+  }
+}

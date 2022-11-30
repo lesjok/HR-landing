@@ -8,5 +8,6 @@
 @media screen and (max-width: 640px) {
   .contact {
     max-width: var(--max-width-sm);
+    margin: 60px auto 0;
   }
 }

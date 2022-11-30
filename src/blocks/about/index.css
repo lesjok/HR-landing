@@ -3,5 +3,6 @@
 @import url(./__cards/about__cards.css);
 @import url(./__card/about__card.css);
 @import url(./__title/about__title.css);
+@import url(./__span/about__span.css);
 @import url(./__num/about__num.css);
 @import url(./__tasks/about__tasks.css);

@@ -12,6 +12,6 @@
     font-size: 18px;
     line-height: 1.1;
     margin: 0 auto 30px;
-    min-width: var(--max-width-sm);
+    max-width: var(--max-width-sm);
   }
 }

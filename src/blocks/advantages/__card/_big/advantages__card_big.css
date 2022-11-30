@@ -14,9 +14,11 @@
 }
 @media screen and (max-width: 470px) {
   .advantages__card_big {
-    height: 133px;
+    height: min-content;
+    max-height: 148px;
     width: 300px;
     padding: 30px;
     gap: 10px;
+    border-radius: 15px;
   }
 }
