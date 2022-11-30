@@ -9,4 +9,16 @@
   cursor: pointer;
   background-color: var(--black-color);
   border-radius: 50%;
+  transition: background-color .3s;
+  background-image: url(../../../images/arrow-left-white.svg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.offers__slider-btn:hover {
+  background-color: #005CFF;
+}
+
+.offers__slider-btn:active {
+  background-color: #004ED9;
 }

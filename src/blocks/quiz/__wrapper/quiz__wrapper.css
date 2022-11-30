@@ -10,4 +10,5 @@
   border-radius: var(--border-radius-m);
   background-color: var(--white-color);
   position: relative;
+  max-height: 407px;
 }

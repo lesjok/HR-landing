@@ -2,10 +2,10 @@
   max-width: var(--max-width);
   box-sizing: border-box;
   margin: var(--section-margin);
-  padding: 50px 100px;
+  padding: 70px 100px;
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 40px;
   background-color: var(--black-color);
   border-radius: var(--border-radius-mxl);
 }

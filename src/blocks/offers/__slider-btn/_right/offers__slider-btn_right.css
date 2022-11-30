@@ -1,5 +1,3 @@
 .offers__slider-btn_right {
-  background-image: url(../../../../images/arrow-right-white.svg);
-  background-repeat: no-repeat;
-  background-position: 50%;
+  transform: rotateZ(180deg);
 }
