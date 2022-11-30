@@ -32,7 +32,6 @@ export let select = function() {
 select();
 
 export let selectProgram = function() {
-  console.log(offersButtons);
   offersButtons.forEach(item => {
     item.addEventListener('click', () => {
       offersButtons.forEach(item => item.classList.remove('active'));

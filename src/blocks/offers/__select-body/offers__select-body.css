@@ -15,3 +15,8 @@
   margin-top: 5px;
   position: absolute;
 }
+@media screen and (max-width: 470px) {
+  .offers__select-body {
+    width: 250px;
+  }
+}

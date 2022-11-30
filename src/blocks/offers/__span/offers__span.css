@@ -3,3 +3,9 @@
   font-size: 16px;
   line-height: 19px;
 }
+@media screen and (max-width: 470px) {
+  .offers__span {
+    font-size: 12px;
+    line-height: 13px;
+  }
+}
