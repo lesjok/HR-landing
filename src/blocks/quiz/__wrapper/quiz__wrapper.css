@@ -12,3 +12,9 @@
   position: relative;
   max-height: 407px;
 }
+
+@media screen and (max-width: 640px) {
+  .quiz__wrapper {
+    padding: 40.5px 0;
+  }
+}

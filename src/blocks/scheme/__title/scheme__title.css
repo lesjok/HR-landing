@@ -1,5 +1,6 @@
 .scheme__title {
   margin: 0;
+  padding: 0 0 25px;
   font-size: var(--font-size-xl);
   line-height: var(--line-height-xl);
   font-weight: var(--font-weight-500);

@@ -1,0 +1,10 @@
+.reviews__btn_mob {
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .reviews__btn_mob {
+    display: flex;
+    align-self: center;
+  }
+}
