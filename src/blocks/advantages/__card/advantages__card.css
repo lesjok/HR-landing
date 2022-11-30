@@ -1,6 +1,6 @@
 .advantages__card {
-  row-gap: 20px;
+  row-gap: 15px;
   box-sizing: border-box;
   background-color: var(--white-color);
-  color: var(--gray_dark-color);
+  color: var(--black-color);
 }
