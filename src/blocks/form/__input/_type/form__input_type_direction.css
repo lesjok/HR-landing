@@ -1,0 +1,11 @@
+.form__input_type_direction {
+  caret-color: transparent;
+}
+
+.form__input_type_direction:focus {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.form__input_type_direction:focus .form__placeholder {
+  color: var(--blue-color);
+}

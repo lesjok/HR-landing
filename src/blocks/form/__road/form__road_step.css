@@ -1,0 +1,22 @@
+.form__road_step {
+  margin: 0;
+  width: 50%;
+  padding: 0 46px 7px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--gray_light-color);
+  position: relative;
+
+}
+
+.form__road_step::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  border-radius: 10px;
+  background-color:  var(--gray_light-color);
+}

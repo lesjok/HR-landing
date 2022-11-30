@@ -1,0 +1,15 @@
+.form__list_direction {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 66px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .5s;
+}
+
+.form__list_direction.active {
+  opacity: 1;
+  visibility: visible;
+  height: auto;
+}

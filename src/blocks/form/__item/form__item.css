@@ -1,0 +1,12 @@
+.form__item {
+  padding: 10px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: var(--font-weight-500);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__item:hover {
+  background: rgba(0, 0, 0, 0.06);
+}

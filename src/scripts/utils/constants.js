@@ -54,4 +54,28 @@ export const faqButtons = document.querySelectorAll('.faq__btn');
 
 export const selectHeader = document.querySelectorAll('.offers__select-header');
 export const selectItem = document.querySelectorAll('.offers__select-item');
+
 export const offersButtons = document.querySelectorAll('.offers__item');
+
+export const sliderContainerOffers = document.querySelector('.offers__cards');
+export const sliderOffersLeftBtn = document.querySelector('.offers__slider-btn_left');
+export const sliderOffersLRightBtn = document.querySelector('.offers__slider-btn_right');
+
+export const multiStepForm = document.querySelector("[data-multi-step]");
+export const formSteps = multiStepForm.querySelectorAll("[data-step]");
+export const formConfig = {
+  formSelector: '.form',
+  inputSelector: '.form__input',
+  submitButtonSelector: '.form__button',
+  //submitButtonDisabledClass: 'button_disabled',
+  formErrorMessageSelector: '.form__error-message',
+  formErrorClass: 'form__error-message_active',
+  inputErrorClass: 'form__input_error',
+  inputSuccessClass: 'form__input_success',
+}
+
+export const peopleRole = document.querySelector('.form__input_type_role');
+export const peopleContainer = document.querySelector('.form__list_role');
+export const peopleDirection = document.querySelector('.form__input_type_direction');
+export const peopleDirectionContainer = document.querySelector('.form__list_direction');
+
