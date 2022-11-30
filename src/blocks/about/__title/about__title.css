@@ -5,3 +5,10 @@
   font-weight: var(--font-weight-500);
   color: var(--white-color);
 }
+
+@media screen and (max-width: 640px) {
+  .about__title {
+    font-size: 18px;
+    line-height: 110%;
+  }
+}
