@@ -5,6 +5,7 @@
 
 @media screen and (max-width: 640px) {
   .header__nav {
+    max-height: none;
     display: none;
     border-radius: 16px;
     width: 100%;
@@ -12,5 +13,7 @@
     background-color: var(--white-color);
     padding: 20px;
     box-sizing: border-box;
+    position: fixed;
+    top: 50px;
   }
 }

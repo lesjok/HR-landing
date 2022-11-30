@@ -8,3 +8,10 @@
   background-color: var(--white-color);
   border-radius: var(--border-radius-l) var(--border-radius-l) 0 0;
 }
+
+@media screen and (max-width: 640px) {
+  .footer {
+    max-width: var(--max-width-sm);
+    flex-direction: column;
+  }
+}
