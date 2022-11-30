@@ -5,3 +5,9 @@
   display: flex;
   gap: 30px;
 }
+@media screen and (max-width: 470px) {
+  .footer__media {
+    transform: translateY(-334px);
+    gap: 20px;
+  }
+}

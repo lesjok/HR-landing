@@ -4,3 +4,8 @@
   flex-direction: column;
   gap: 5px;
 }
+@media screen and (max-width: 470px) {
+  .footer__phone {
+    /* order: 4; */
+  }
+}
