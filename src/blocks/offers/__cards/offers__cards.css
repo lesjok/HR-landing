@@ -6,4 +6,10 @@
   padding: 0;
   overflow-x: hidden;
 }
+@media screen and (max-width: 470px) {
+  .offers__cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
 

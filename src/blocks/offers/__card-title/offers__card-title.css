@@ -5,3 +5,9 @@
   line-height: var(--line-height-l);
   max-width: 360px;
 }
+@media screen and (max-width: 470px) {
+  .offers__card-title {
+    font-size: var(--font-size-s);
+    line-height: 18px;
+  }
+}

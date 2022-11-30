@@ -1,3 +1,8 @@
 .offers__item {
   margin-left: 22px;
 }
+@media screen and (max-width: 470px) {
+  .offers__item {
+    margin-left: 0;
+  }
+}
