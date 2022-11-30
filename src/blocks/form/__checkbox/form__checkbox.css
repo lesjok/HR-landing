@@ -1,0 +1,22 @@
+.form__checkbox {
+  display: inline-block;
+  vertical-align: middle;
+  width: 28px;
+  height: 18px;
+  border: 1.14286px solid var(--gray-color);
+  border-radius: 3px;
+}
+
+.form__input_type_agreement:checked+.form__checkbox {
+  background-image: url(../../../images/checkbox.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.form__input_type_agreement:focus+.form__checkbox {
+  box-shadow: 0 0 5px var(--blue-color);
+}
+
+.form__input_type_agreement:disabled+.form__checkbox {
+  border-color: #979797;
+}

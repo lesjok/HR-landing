@@ -1,0 +1,24 @@
+.form__button {
+  outline: none;
+  border: 2px solid var(--blue-color);
+  border-radius: var(--border-radius-2xl);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  width: 100%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 36px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.form__button:hover {
+  background-color: #005CFF;
+}
+
+.form__button:active {
+  background-color: #004ED9;
+}

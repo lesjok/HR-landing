@@ -1,0 +1,15 @@
+.form__input_type_date {
+  appearance: none;
+}
+
+.DatePickerInput::-webkit-inner-spin-button,
+.DatePickerInput::-webkit-calendar-picker-indicator {
+  opacity:0;
+  -webkit-appearance: none;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}

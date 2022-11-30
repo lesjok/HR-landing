@@ -1,0 +1,4 @@
+.form__label_checkbox {
+  display: flex;
+  gap: 10px;
+}

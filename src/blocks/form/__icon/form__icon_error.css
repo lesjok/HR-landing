@@ -1,0 +1,10 @@
+.form__icon_error {
+  opacity: 0;
+  visibility: hidden;
+  transition: .5s;
+}
+
+.form__icon_error.active {
+  opacity: 1;
+  visibility: visible;
+}
