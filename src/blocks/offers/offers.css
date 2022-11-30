@@ -1,7 +1,6 @@
 .offers {
   max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 100px 0 0;
+  margin: var(--section-margin);
   overflow-x: hidden;
 }
 @media screen and (max-width: 470px) {

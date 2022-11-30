@@ -4,3 +4,9 @@
   margin: 0;
   max-width: 786px;
 }
+@media screen and (max-width: 470px) {
+  .faq__text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

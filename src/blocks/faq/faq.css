@@ -6,3 +6,11 @@
   padding: 50px 100px 100px;
   border-radius: var(--border-radius-xl);
 }
+@media screen and (max-width: 470px) {
+  .faq{
+    padding: 40px 20px;
+    width: 300px;
+    margin-top: 60px;
+    border-radius: var(--border-radius-m);
+  }
+}
