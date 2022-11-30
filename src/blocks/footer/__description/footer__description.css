@@ -3,3 +3,8 @@
   font-size: var(--font-size-s);
   line-height: var(--line-height-s);
 }
+@media screen and (max-width: 470px) {
+  .footer__description{
+    transform: translateY(110px);
+  }
+}

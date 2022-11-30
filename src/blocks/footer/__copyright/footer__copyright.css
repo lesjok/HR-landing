@@ -1,3 +1,10 @@
 .footer__copyright {
   margin: 0;
 }
+@media screen and (max-width: 470px) {
+  .footer__copyright{
+    font-size: 14px;
+    line-height: 15px;
+    transform: translateY(365px);
+  }
+}
