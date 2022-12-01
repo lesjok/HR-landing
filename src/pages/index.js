@@ -32,6 +32,7 @@ import { filter } from '../scripts/utils/offers-filter';
 
 import {  } from '../scripts/utils/constants';
 import {enableFormValidation} from '../scripts/utils/form';
+import { selectProgram } from '../scripts/utils/offers-select';
 
 document.querySelector('.form__close').addEventListener('click', () => {
   document.querySelector('.form').classList.remove('form_opened')
@@ -43,7 +44,7 @@ openPopup();
 srollToAnchors();
 accordeon();
 openSharePopup();
-
+selectProgram();
 
 btnsRight.forEach(item => {
   item.addEventListener('mousedown', () => {
