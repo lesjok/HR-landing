@@ -1,7 +1,5 @@
 import './index.css';
 
-import { select, selectProgram } from '../scripts/utils/offers-select';
-
 import {
   quizContainer,
   sliderLeftBtn,
