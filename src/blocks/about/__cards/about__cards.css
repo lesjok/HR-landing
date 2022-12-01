@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 1025px) {
-  .advantages__card_big {
+  .about__cards {
     width: 458px;
   }
 }
