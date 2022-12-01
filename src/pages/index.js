@@ -1,7 +1,5 @@
 import './index.css';
 
-import { select, selectProgram } from '../scripts/utils/offers-select';
-
 import {
   quizContainer,
   sliderLeftBtn,
@@ -20,8 +18,8 @@ import {
   formRoadSteps,
   btnsRight,
   btnsLeft,
-  closePopup
-  btnsLeft
+  closePopup,
+
 } from '../scripts/utils/constants';
 
 import { getCoordinate, scrollCards } from '../scripts/utils/slider';

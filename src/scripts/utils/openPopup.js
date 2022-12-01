@@ -17,8 +17,9 @@ export function openSharePopup() {
     btn.addEventListener('click', () => {
       document.querySelector('.popup').classList.add('popup_opened')
     })
-  }
-}
+ }
   document.addEventListener('keydown',closePopupByEsc);
 }
+
+
 
