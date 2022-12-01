@@ -10,5 +10,6 @@
   .faculties {
     max-width: var(--max-width-sm);
     margin: 60px auto 0;
+    overflow: scroll;
   }
 }
