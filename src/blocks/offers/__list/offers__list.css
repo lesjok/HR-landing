@@ -10,7 +10,7 @@
   .offers__list {
     margin-top: 20px;
     gap: 10px;
-    overflow: hidden;
+    overflow: scroll;
     margin-bottom: 20px;
   }
 }
