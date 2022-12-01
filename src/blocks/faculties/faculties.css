@@ -11,3 +11,10 @@
     margin: 60px auto 0;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .faculties {
+    max-width: var(--max-width-sm);
+    padding: 0 10px;
+  }
+}

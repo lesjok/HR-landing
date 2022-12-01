@@ -6,7 +6,7 @@
   padding: 51px 100px 60px;
   border-radius: var(--border-radius-xl);
 }
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 640px) {
   .faq{
     padding: 40px 20px;
     width: 300px;
