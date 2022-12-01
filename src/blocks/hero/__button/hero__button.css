@@ -11,6 +11,14 @@
   line-height: 60px;
 }
 
+
+
+@media screen and (max-width: 1025px) {
+  .hero__button {
+    margin-bottom: 30px;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .hero__button {
     font-size: 14px;

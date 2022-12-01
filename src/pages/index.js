@@ -16,9 +16,9 @@ import {
   peopleRole,
   peopleContainer,
   peopleDirection,
-  peopleDirectionContainer, 
+  peopleDirectionContainer,
   formRoadSteps,
-  btnsRight, 
+  btnsRight,
   btnsLeft
 } from '../scripts/utils/constants';
 
@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', scrollUp);
 openPopup();
 srollToAnchors();
 accordeon();
+closePopup();
 
 btnsRight.forEach(item => {
   item.addEventListener('mousedown', () => {
@@ -93,3 +94,4 @@ peopleDirection.blur();
 
 document.getElementById('davaToday').valueAsDate = new Date();
 import { filter } from '../scripts/utils/offers-filter';
+import {closePopup} from '../scripts/utils/closePopup';

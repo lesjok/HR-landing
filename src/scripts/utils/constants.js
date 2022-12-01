@@ -89,3 +89,5 @@ export const quizProgress = document.querySelector('.quiz__progress');
 export const quizProgressSteps = document.querySelectorAll('.quiz__step');
 
 export const formRoadSteps = document.querySelectorAll('.form__road_step');
+
+export const form = document.querySelector('.form');

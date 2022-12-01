@@ -7,6 +7,12 @@
   align-self: center;
 }
 
+@media screen and (max-width: 800px) {
+  .hero__title {
+    font-size: 70px;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .hero__title {
     font-weight: 500;

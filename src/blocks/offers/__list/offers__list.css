@@ -6,11 +6,17 @@
   align-items: center;
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 800px) {
+  .offers__list{
+    overflow: scroll;
+  }
+}
+
 @media screen and (max-width: 470px) {
   .offers__list {
     margin-top: 19px;
     gap: 10px;
-    overflow: scroll;
     margin-bottom: 20px;
   }
 }
