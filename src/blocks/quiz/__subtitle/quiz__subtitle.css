@@ -1,8 +1,9 @@
 .quiz__subtitle {
   margin: 0;
-  font-size: var(--font-size-l);
-  line-height: var(--line-height-l);
+  font-size: 18px;
+  line-height: 21px;
   color: var(--gray-color);
+  max-width: 288px;
 }
 
 @media screen and (max-width: 640px) {
