@@ -9,6 +9,18 @@
   position: relative;
 }
 
+@media screen and (max-width: 1025px) {
+  .scheme {
+    width: 392px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .scheme {
+    width: 568px;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .scheme {
     max-width: 240px;

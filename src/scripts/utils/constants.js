@@ -48,6 +48,7 @@ export const quizAnswers = {
 export const modal = document.querySelector('.modal');
 export const modalContent = document.querySelector('.modal__content');
 
+export const form = document.querySelector('.form');
 
 export const burgerButton = document.querySelector('.header__burger-icon');
 export const headerNav = document.querySelector('.header__nav');
@@ -89,5 +90,6 @@ export const quizProgress = document.querySelector('.quiz__progress');
 export const quizProgressSteps = document.querySelectorAll('.quiz__step');
 
 export const formRoadSteps = document.querySelectorAll('.form__road_step');
+
 export const shareButtons = document.querySelectorAll('.offers__share');
 export const closePopup = document.querySelector('.popup__close');

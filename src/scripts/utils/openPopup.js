@@ -1,9 +1,13 @@
-import { CTAbuttons, shareButtons } from './constants';
+import {CTAbuttons, form, formConfig, shareButtons} from './constants'
+import {resetImputsErrorMessage} from './form';
+import {closePopupByEsc} from './closePopup';
 
 export function openPopup() {
   for (let CTAbutton of CTAbuttons) {
     CTAbutton.addEventListener('click', () => {
-      document.querySelector('.form').classList.add('form_opened')
+      document.querySelector('.form').classList.add('form_opened');
+      resetImputsErrorMessage(document.querySelector(formConfig.formSelector), formConfig);
+      form.reset();
     })
   }
 }
@@ -15,3 +19,6 @@ export function openSharePopup() {
     })
   }
 }
+  document.addEventListener('keydown',closePopupByEsc);
+}
+

@@ -28,7 +28,7 @@ console.log(sectionID)
     console.log(sectionID)
     document.querySelector(sectionID).scrollIntoView({
       behavior: 'smooth',
-      block: 'center',
+      block: 'start',
     });
   });
 }
