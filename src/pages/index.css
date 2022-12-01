@@ -43,6 +43,10 @@
 
 @import url(../blocks/quiz/index.css);
 
+/**** MODAL ****/
+
+@import url(../blocks/modal/index.css);
+
 /**** SCROLL-UP ****/
 
 @import url(../blocks/scroll-up/index.css);
