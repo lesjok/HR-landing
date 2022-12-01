@@ -7,9 +7,11 @@
   justify-content: space-between;
   border-radius: var(--border-radius-m);
 }
-@media screen and (max-width: 1280px) {
+
+@media screen and (max-width: 800px) {
   .advantages__card_big {
-    max-width: 448px;
+    width: 369px;
+    padding: 25px;
   }
 }
 @media screen and (max-width: 470px) {

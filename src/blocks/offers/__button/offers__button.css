@@ -14,6 +14,13 @@
   padding-left: 40px;
 }
 
+@media screen and (max-width: 800px) {
+  .offers__button{
+    padding: 20px;
+    width: 374px;
+  }
+}
+
 @media screen and (max-width: 470px) {
   .offers__button {
     width: 300px;
