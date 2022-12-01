@@ -21,7 +21,6 @@ import {
   btnsRight,
   btnsLeft,
   closePopup
-  btnsLeft
 } from '../scripts/utils/constants';
 
 import { getCoordinate, scrollCards } from '../scripts/utils/slider';
@@ -31,6 +30,7 @@ import { scrollUp } from '../scripts/utils/scrollUp'
 import { srollToAnchors } from '../scripts/utils/srollToAnchors'
 import { accordeon } from '../scripts/utils/accordeon';
 import { openPopup, openSharePopup } from '../scripts/utils/openPopup';
+import { filter } from '../scripts/utils/offers-filter';
 
 import {  } from '../scripts/utils/constants';
 import {enableFormValidation} from '../scripts/utils/form';
@@ -45,7 +45,6 @@ openPopup();
 srollToAnchors();
 accordeon();
 openSharePopup();
-closePopup();
 
 
 btnsRight.forEach(item => {
@@ -97,7 +96,6 @@ peopleDirection.blur();
 });
 
 document.getElementById('davaToday').valueAsDate = new Date();
-import { filter } from '../scripts/utils/offers-filter';
 
 closePopup.addEventListener('click', () => {
   document.querySelector('.popup').classList.remove('popup_opened');

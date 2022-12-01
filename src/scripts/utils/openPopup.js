@@ -19,6 +19,5 @@ export function openSharePopup() {
     })
   }
 }
-  document.addEventListener('keydown',closePopupByEsc);
-}
+document.addEventListener('keydown', closePopupByEsc);
 
