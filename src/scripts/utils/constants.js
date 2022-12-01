@@ -82,8 +82,8 @@ export const peopleDirection = document.querySelector('.form__input_type_directi
 export const peopleDirectionContainer = document.querySelector('.form__list_direction');
 
 
-export const btnsRight = document.querySelectorAll('.reviews__button_right');
-export const btnsLeft = document.querySelectorAll('.reviews__button_left');
+export const btnsRight = document.querySelectorAll('.reviews__button_right_mob');
+export const btnsLeft = document.querySelectorAll('.reviews__button_left_mob');
 
 export const quizProgress = document.querySelector('.quiz__progress');
 export const quizProgressSteps = document.querySelectorAll('.quiz__step');

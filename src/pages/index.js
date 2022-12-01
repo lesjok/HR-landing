@@ -16,7 +16,10 @@ import {
   peopleRole,
   peopleContainer,
   peopleDirection,
-  peopleDirectionContainer, formRoadSteps,
+  peopleDirectionContainer, 
+  formRoadSteps,
+  btnsRight, 
+  btnsLeft
 } from '../scripts/utils/constants';
 
 import { getCoordinate, scrollCards } from '../scripts/utils/slider';
@@ -27,7 +30,7 @@ import { srollToAnchors } from '../scripts/utils/srollToAnchors'
 import { accordeon } from '../scripts/utils/accordeon';
 import { openPopup } from '../scripts/utils/openPopup';
 
-import { btnsRight, btnsLeft } from '../scripts/utils/constants';
+import {  } from '../scripts/utils/constants';
 import {enableFormValidation} from '../scripts/utils/form';
 
 document.querySelector('.form__close').addEventListener('click', () => {
@@ -42,20 +45,20 @@ accordeon();
 
 btnsRight.forEach(item => {
   item.addEventListener('mousedown', () => {
-    scrollCards(340);
+    scrollCards(330);
   })
 });
 btnsLeft.forEach(item => {
   item.addEventListener('mousedown', () => {
-    scrollCards(-340);
+    scrollCards(-330);
   })
 });
 
 sliderLRightBtn.addEventListener('mousedown', () => {
-  scrollCards(501);
+  scrollCards(491);
 });
 sliderLeftBtn.addEventListener('mousedown', () => {
-  scrollCards(-501);
+  scrollCards(-491);
 });
 
 quizTeacherBtn.addEventListener('click', quiz);
