@@ -28,6 +28,7 @@ import { accordeon } from '../scripts/utils/accordeon';
 import { openPopup } from '../scripts/utils/openPopup';
 
 import { filter } from '../scripts/utils/offers-filter';
+document.getElementById('davaToday').valueAsDate = new Date();
 
 document.querySelector('.form__close').addEventListener('click', () => {
   document.querySelector('.form').classList.remove('form_opened')

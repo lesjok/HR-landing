@@ -2,6 +2,7 @@
   opacity: 0;
   visibility: hidden;
   transition: .5s;
+  cursor: inherit;
 }
 
 .form__icon_error.active {

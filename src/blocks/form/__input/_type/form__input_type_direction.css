@@ -6,6 +6,6 @@
   background: rgba(0, 0, 0, 0.06);
 }
 
-.form__input_type_direction:focus .form__placeholder {
+.form__input_type_direction:focus .form__input::placeholder {
   color: var(--blue-color);
 }
