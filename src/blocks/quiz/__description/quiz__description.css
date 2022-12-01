@@ -15,7 +15,7 @@
 @media screen and (max-width: 640px) {
   .quiz__description {
     padding: 30px;
-    gap: 10px;
+    gap: 9px;
     border-radius: 15px;
   }
 }

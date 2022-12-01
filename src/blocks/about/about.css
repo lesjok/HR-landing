@@ -2,7 +2,7 @@
   max-width: var(--max-width);
   box-sizing: border-box;
   margin: var(--section-margin);
-  padding: 70px 100px;
+  padding: 80px 100px;
   display: flex;
   flex-direction: column;
   gap: 40px;

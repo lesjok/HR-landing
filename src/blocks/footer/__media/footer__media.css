@@ -7,7 +7,7 @@
 }
 @media screen and (max-width: 470px) {
   .footer__media {
-    transform: translateY(-334px);
+    transform: translateY(-423px);
     gap: 20px;
   }
 }
