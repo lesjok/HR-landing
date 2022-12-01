@@ -1,12 +1,7 @@
 .offers__card.hide {
   display: none;
 }
-.offers__card:nth-child(10) .offers__card-title{
-  width: 503px;
-}
-.offers__card:nth-child(5) .offers__card-title {
-  width: 444px;
-}
+
 @media screen and (max-width: 470px) {
   .offers__card {
     margin-right: 0;

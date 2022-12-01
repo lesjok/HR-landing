@@ -1,5 +1,5 @@
 .offers__button {
-  width: 560px;
+  width: 570px;
   height: 205px;
   box-sizing: border-box;
   background-color: var(--white-color);
@@ -7,12 +7,17 @@
   cursor: pointer;
   border: none;
   padding: 0;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+  padding-left: 40px;
 }
 
 @media screen and (max-width: 470px) {
   .offers__button {
     width: 300px;
     height: 151px;
+    border-radius: 15px;
   }
 }

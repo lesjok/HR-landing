@@ -1,10 +1,11 @@
 .footer__description {
   margin: 0;
-  font-size: var(--font-size-s);
-  line-height: var(--line-height-s);
+  font-size: 16px;
+  line-height: 19px;
 }
+
 @media screen and (max-width: 470px) {
-  .footer__description{
+  .footer__description {
     transform: translateY(110px);
   }
 }

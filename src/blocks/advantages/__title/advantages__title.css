@@ -4,7 +4,7 @@
 }
 @media screen and (max-width: 470px) {
   .advantages__title {
-    margin-bottom: 30px;
+    margin: 0 0 30px;
     font-size: var(--font-size-main);
     line-height: 20px;
     max-width: 218px;

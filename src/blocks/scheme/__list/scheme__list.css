@@ -4,7 +4,7 @@
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 14px;
   width: 100%;
   flex: 1 1 auto;
 }

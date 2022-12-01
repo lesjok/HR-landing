@@ -2,3 +2,10 @@
   font-size: var(--font-size-s);
   line-height: var(--line-height-s);
 }
+
+@media screen and (max-width: 640px) {
+  .card__faculty {
+    font-size: 12px;
+    line-height: 110%;
+  }
+}
