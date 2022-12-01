@@ -1,4 +1,5 @@
 @import url(./faculties.css);
+@import url(./__cards/faculties__cards.css);
 @import url(./__cards-container/faculties__cards-container.css);
 @import url(./__card-container/faculties__card-container.css);
 @import url(./__card-container/_big/faculties__card-container_big.css);
