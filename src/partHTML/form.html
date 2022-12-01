@@ -1,182 +1,209 @@
 <form class="form" name="form" id="form" data-multi-step novalidate>
- <div class="form__content">
+  <div class="form__content">
 
-   <h3 class="form__title">Хочу делиться знаниями</h3>
+    <h3 class="form__title">Хочу делиться знаниями</h3>
 
-   <button class="form__close" type="button">
-     <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-       <rect x="8.92383" y="11.163" width="3.16667" height="25.3333" rx="1.58333" transform="rotate(-45 8.92383 11.163)" fill="#979797"/>
-       <rect x="8.92383" y="26.8371" width="25.3333" height="3.16667" rx="1.58333" transform="rotate(-45 8.92383 26.8371)" fill="#979797"/>
-     </svg>
-   </button>
+    <button class="form__close" type="button">
+      <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="8.92383" y="11.163" width="3.16667" height="25.3333" rx="1.58333"
+          transform="rotate(-45 8.92383 11.163)" fill="#979797" />
+        <rect x="8.92383" y="26.8371" width="25.3333" height="3.16667" rx="1.58333"
+          transform="rotate(-45 8.92383 26.8371)" fill="#979797" />
+      </svg>
+    </button>
 
-   <div class="form__road">
-     <p class="form__road_step">Шаг 1</p>
-     <p class="form__road_step">Шаг 2</p>
-   </div>
+    <div class="form__road">
+      <p class="form__road_step">Шаг 1</p>
+      <p class="form__road_step">Шаг 2</p>
+    </div>
 
-   <div class="form__step" data-step>
-     <label class="form__label">
-       <input required type="text" class="form__input form__input_type_name" name="name" id="name" minlength="5"
-              maxlength="30">
-       <span class="form__placeholder name-placeholder">ФИО</span>
-       <span class="form__error-message name-error"></span>
-       <svg class="form__icon form__icon_success name-success" width="16" height="16" viewBox="0 0 16 16" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-         <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM11.716 7.1981C12.1016 6.80266 12.0935 6.16955 11.6981 5.784C11.3027 5.39845 10.6695 5.40646 10.284 5.8019L7.12158 9.04541L5.73639 7.53773C5.36274 7.13103 4.73014 7.10424 4.32344 7.4779C3.91675 7.85155 3.88996 8.48415 4.26361 8.89084L6.36361 11.1766C6.5495 11.3789 6.81044 11.4958 7.08517 11.4999C7.35989 11.504 7.62419 11.3948 7.816 11.1981L11.716 7.1981Z" fill="#1C9C75"/>
-       </svg>
-       <svg class="form__icon form__icon_error name-fail" width="16" height="16" viewBox="0 0 16 16" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-         <g clip-path="url(#clip0_584_6700)">
-           <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16.0026C12.4183 16.0026 16 12.4209 16 8.00269C16 3.58441 12.4183 0.00268555 8 0.00268555C3.58172 0.00268555 0 3.58441 0 8.00269C0 12.4209 3.58172 16.0026 8 16.0026ZM6.70996 11.7052C6.70996 10.9595 7.27667 10.4226 7.9925 10.4226C8.72326 10.4226 9.28996 10.9595 9.28996 11.7052C9.28996 12.4509 8.72326 13.0026 7.9925 13.0026C7.27667 13.0026 6.70996 12.4509 6.70996 11.7052ZM7.46502 3.00269H8.53489C8.97368 3.00269 9.31875 3.37771 9.2823 3.81498L8.88821 8.54371C8.86661 8.80285 8.64998 9.00218 8.38994 9.00218H7.61006C7.35002 9.00218 7.13338 8.80286 7.11178 8.54372L6.71761 3.81499C6.68116 3.37772 7.02623 3.00269 7.46502 3.00269Z" fill="#E36563"/>
-         </g>
-         <defs>
-           <clipPath id="clip0_584_6700">
-             <rect width="16" height="16" fill="white"/>
-           </clipPath>
-         </defs>
-       </svg>
-     </label>
+    <div class="form__step" data-step>
+      <label class="form__label">
+        <input required type="text" class="form__input form__input_type_name" name="name" id="name" minlength="5"
+          maxlength="30">
+        <span class="form__placeholder name-placeholder">ФИО</span>
+        <span class="form__error-message name-error"></span>
+        <svg class="form__icon form__icon_success name-success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM11.716 7.1981C12.1016 6.80266 12.0935 6.16955 11.6981 5.784C11.3027 5.39845 10.6695 5.40646 10.284 5.8019L7.12158 9.04541L5.73639 7.53773C5.36274 7.13103 4.73014 7.10424 4.32344 7.4779C3.91675 7.85155 3.88996 8.48415 4.26361 8.89084L6.36361 11.1766C6.5495 11.3789 6.81044 11.4958 7.08517 11.4999C7.35989 11.504 7.62419 11.3948 7.816 11.1981L11.716 7.1981Z"
+            fill="#1C9C75" />
+        </svg>
+        <svg class="form__icon form__icon_error name-fail" width="16" height="16" viewBox="0 0 16 16" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_584_6700)">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M8 16.0026C12.4183 16.0026 16 12.4209 16 8.00269C16 3.58441 12.4183 0.00268555 8 0.00268555C3.58172 0.00268555 0 3.58441 0 8.00269C0 12.4209 3.58172 16.0026 8 16.0026ZM6.70996 11.7052C6.70996 10.9595 7.27667 10.4226 7.9925 10.4226C8.72326 10.4226 9.28996 10.9595 9.28996 11.7052C9.28996 12.4509 8.72326 13.0026 7.9925 13.0026C7.27667 13.0026 6.70996 12.4509 6.70996 11.7052ZM7.46502 3.00269H8.53489C8.97368 3.00269 9.31875 3.37771 9.2823 3.81498L8.88821 8.54371C8.86661 8.80285 8.64998 9.00218 8.38994 9.00218H7.61006C7.35002 9.00218 7.13338 8.80286 7.11178 8.54372L6.71761 3.81499C6.68116 3.37772 7.02623 3.00269 7.46502 3.00269Z"
+              fill="#E36563" />
+          </g>
+          <defs>
+            <clipPath id="clip0_584_6700">
+              <rect width="16" height="16" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </label>
 
-     <label class="form__label">
-       <input required type="date" class="form__input form__input_type_date" name="date" id="davaToday">
-       <span class="form__placeholder date-placeholder">Дата рождения</span>
-       <span class="form__error-message date-error form__error-message_date">Вам должно быть не меньше 18 лет</span>
-       <svg class="form__icon form__icon_data" width="23" height="24" viewBox="0 0 23 24" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-         <path fill-rule="evenodd" clip-rule="evenodd" d="M8 4C7.73478 4 7.48043 4.10536 7.29289 4.29289C7.10536 4.48043 7 4.73478 7 5V6H6.5C6.10218 6 5.72064 6.15804 5.43934 6.43934C5.15804 6.72064 5 7.10218 5 7.5V17.5C5 17.8978 5.15804 18.2794 5.43934 18.5607C5.72064 18.842 6.10218 19 6.5 19H17.5C17.8978 19 18.2794 18.842 18.5607 18.5607C18.842 18.2794 19 17.8978 19 17.5V7.5C19 7.10218 18.842 6.72064 18.5607 6.43934C18.2794 6.15804 17.8978 6 17.5 6H17V5C17 4.73478 16.8946 4.48043 16.7071 4.29289C16.5196 4.10536 16.2652 4 16 4C15.7348 4 15.4804 4.10536 15.2929 4.29289C15.1054 4.48043 15 4.73478 15 5V6H9V5C9 4.73478 8.89464 4.48043 8.70711 4.29289C8.51957 4.10536 8.26522 4 8 4ZM7 10V17H17V10H7ZM15.5 14C15.5 14.3978 15.342 14.7794 15.0607 15.0607C14.7794 15.342 14.3978 15.5 14 15.5C13.6022 15.5 13.2206 15.342 12.9393 15.0607C12.658 14.7794 12.5 14.3978 12.5 14C12.5 13.6022 12.658 13.2206 12.9393 12.9393C13.2206 12.658 13.6022 12.5 14 12.5C14.3978 12.5 14.7794 12.658 15.0607 12.9393C15.342 13.2206 15.5 13.6022 15.5 14Z" fill="black" fill-opacity="0.85"/>
-       </svg>
-       <svg class="form__icon form__icon_success date-success" width="16" height="16" viewBox="0 0 16 16" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-         <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM11.716 7.1981C12.1016 6.80266 12.0935 6.16955 11.6981 5.784C11.3027 5.39845 10.6695 5.40646 10.284 5.8019L7.12158 9.04541L5.73639 7.53773C5.36274 7.13103 4.73014 7.10424 4.32344 7.4779C3.91675 7.85155 3.88996 8.48415 4.26361 8.89084L6.36361 11.1766C6.5495 11.3789 6.81044 11.4958 7.08517 11.4999C7.35989 11.504 7.62419 11.3948 7.816 11.1981L11.716 7.1981Z" fill="#1C9C75"/>
-       </svg>
-       <svg class="form__icon form__icon_error date-fail" width="16" height="16" viewBox="0 0 16 16" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-         <g clip-path="url(#clip0_584_6700)">
-           <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16.0026C12.4183 16.0026 16 12.4209 16 8.00269C16 3.58441 12.4183 0.00268555 8 0.00268555C3.58172 0.00268555 0 3.58441 0 8.00269C0 12.4209 3.58172 16.0026 8 16.0026ZM6.70996 11.7052C6.70996 10.9595 7.27667 10.4226 7.9925 10.4226C8.72326 10.4226 9.28996 10.9595 9.28996 11.7052C9.28996 12.4509 8.72326 13.0026 7.9925 13.0026C7.27667 13.0026 6.70996 12.4509 6.70996 11.7052ZM7.46502 3.00269H8.53489C8.97368 3.00269 9.31875 3.37771 9.2823 3.81498L8.88821 8.54371C8.86661 8.80285 8.64998 9.00218 8.38994 9.00218H7.61006C7.35002 9.00218 7.13338 8.80286 7.11178 8.54372L6.71761 3.81499C6.68116 3.37772 7.02623 3.00269 7.46502 3.00269Z" fill="#E36563"/>
-         </g>
-         <defs>
-           <clipPath id="clip0_584_6700">
-             <rect width="16" height="16" fill="white"/>
-           </clipPath>
-         </defs>
-       </svg>
-     </label>
+      <label class="form__label">
+        <input required type="date" class="form__input form__input_type_date" name="date" id="davaToday">
+        <span class="form__placeholder date-placeholder">Дата рождения</span>
+        <span class="form__error-message date-error form__error-message_date">Вам должно быть не меньше 18 лет</span>
+        <svg class="form__icon form__icon_data" width="23" height="24" viewBox="0 0 23 24" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M8 4C7.73478 4 7.48043 4.10536 7.29289 4.29289C7.10536 4.48043 7 4.73478 7 5V6H6.5C6.10218 6 5.72064 6.15804 5.43934 6.43934C5.15804 6.72064 5 7.10218 5 7.5V17.5C5 17.8978 5.15804 18.2794 5.43934 18.5607C5.72064 18.842 6.10218 19 6.5 19H17.5C17.8978 19 18.2794 18.842 18.5607 18.5607C18.842 18.2794 19 17.8978 19 17.5V7.5C19 7.10218 18.842 6.72064 18.5607 6.43934C18.2794 6.15804 17.8978 6 17.5 6H17V5C17 4.73478 16.8946 4.48043 16.7071 4.29289C16.5196 4.10536 16.2652 4 16 4C15.7348 4 15.4804 4.10536 15.2929 4.29289C15.1054 4.48043 15 4.73478 15 5V6H9V5C9 4.73478 8.89464 4.48043 8.70711 4.29289C8.51957 4.10536 8.26522 4 8 4ZM7 10V17H17V10H7ZM15.5 14C15.5 14.3978 15.342 14.7794 15.0607 15.0607C14.7794 15.342 14.3978 15.5 14 15.5C13.6022 15.5 13.2206 15.342 12.9393 15.0607C12.658 14.7794 12.5 14.3978 12.5 14C12.5 13.6022 12.658 13.2206 12.9393 12.9393C13.2206 12.658 13.6022 12.5 14 12.5C14.3978 12.5 14.7794 12.658 15.0607 12.9393C15.342 13.2206 15.5 13.6022 15.5 14Z"
+            fill="black" fill-opacity="0.85" />
+        </svg>
+        <svg class="form__icon form__icon_success date-success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM11.716 7.1981C12.1016 6.80266 12.0935 6.16955 11.6981 5.784C11.3027 5.39845 10.6695 5.40646 10.284 5.8019L7.12158 9.04541L5.73639 7.53773C5.36274 7.13103 4.73014 7.10424 4.32344 7.4779C3.91675 7.85155 3.88996 8.48415 4.26361 8.89084L6.36361 11.1766C6.5495 11.3789 6.81044 11.4958 7.08517 11.4999C7.35989 11.504 7.62419 11.3948 7.816 11.1981L11.716 7.1981Z"
+            fill="#1C9C75" />
+        </svg>
+        <svg class="form__icon form__icon_error date-fail" width="16" height="16" viewBox="0 0 16 16" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_584_6700)">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M8 16.0026C12.4183 16.0026 16 12.4209 16 8.00269C16 3.58441 12.4183 0.00268555 8 0.00268555C3.58172 0.00268555 0 3.58441 0 8.00269C0 12.4209 3.58172 16.0026 8 16.0026ZM6.70996 11.7052C6.70996 10.9595 7.27667 10.4226 7.9925 10.4226C8.72326 10.4226 9.28996 10.9595 9.28996 11.7052C9.28996 12.4509 8.72326 13.0026 7.9925 13.0026C7.27667 13.0026 6.70996 12.4509 6.70996 11.7052ZM7.46502 3.00269H8.53489C8.97368 3.00269 9.31875 3.37771 9.2823 3.81498L8.88821 8.54371C8.86661 8.80285 8.64998 9.00218 8.38994 9.00218H7.61006C7.35002 9.00218 7.13338 8.80286 7.11178 8.54372L6.71761 3.81499C6.68116 3.37772 7.02623 3.00269 7.46502 3.00269Z"
+              fill="#E36563" />
+          </g>
+          <defs>
+            <clipPath id="clip0_584_6700">
+              <rect width="16" height="16" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </label>
 
-     <label class="form__label">
-       <input required type="text" class="form__input form__input_type_tg" name="tg" id="tg">
-       <span class="form__placeholder tg-placeholder">Номер телефона/Telegram</span>
-       <span class="form__error-message tg-error"></span>
-       <svg class="form__icon form__icon_success tg-success" width="16" height="16" viewBox="0 0 16 16" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-         <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM11.716 7.1981C12.1016 6.80266 12.0935 6.16955 11.6981 5.784C11.3027 5.39845 10.6695 5.40646 10.284 5.8019L7.12158 9.04541L5.73639 7.53773C5.36274 7.13103 4.73014 7.10424 4.32344 7.4779C3.91675 7.85155 3.88996 8.48415 4.26361 8.89084L6.36361 11.1766C6.5495 11.3789 6.81044 11.4958 7.08517 11.4999C7.35989 11.504 7.62419 11.3948 7.816 11.1981L11.716 7.1981Z" fill="#1C9C75"/>
-       </svg>
-       <svg class="form__icon form__icon_error tg-fail" width="16" height="16" viewBox="0 0 16 16" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-         <g clip-path="url(#clip0_584_6700)">
-           <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16.0026C12.4183 16.0026 16 12.4209 16 8.00269C16 3.58441 12.4183 0.00268555 8 0.00268555C3.58172 0.00268555 0 3.58441 0 8.00269C0 12.4209 3.58172 16.0026 8 16.0026ZM6.70996 11.7052C6.70996 10.9595 7.27667 10.4226 7.9925 10.4226C8.72326 10.4226 9.28996 10.9595 9.28996 11.7052C9.28996 12.4509 8.72326 13.0026 7.9925 13.0026C7.27667 13.0026 6.70996 12.4509 6.70996 11.7052ZM7.46502 3.00269H8.53489C8.97368 3.00269 9.31875 3.37771 9.2823 3.81498L8.88821 8.54371C8.86661 8.80285 8.64998 9.00218 8.38994 9.00218H7.61006C7.35002 9.00218 7.13338 8.80286 7.11178 8.54372L6.71761 3.81499C6.68116 3.37772 7.02623 3.00269 7.46502 3.00269Z" fill="#E36563"/>
-         </g>
-         <defs>
-           <clipPath id="clip0_584_6700">
-             <rect width="16" height="16" fill="white"/>
-           </clipPath>
-         </defs>
-       </svg>
-     </label>
+      <label class="form__label">
+        <input required type="text" class="form__input form__input_type_tg" name="tg" id="tg">
+        <span class="form__placeholder tg-placeholder">Номер телефона/Telegram</span>
+        <span class="form__error-message tg-error"></span>
+        <svg class="form__icon form__icon_success tg-success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM11.716 7.1981C12.1016 6.80266 12.0935 6.16955 11.6981 5.784C11.3027 5.39845 10.6695 5.40646 10.284 5.8019L7.12158 9.04541L5.73639 7.53773C5.36274 7.13103 4.73014 7.10424 4.32344 7.4779C3.91675 7.85155 3.88996 8.48415 4.26361 8.89084L6.36361 11.1766C6.5495 11.3789 6.81044 11.4958 7.08517 11.4999C7.35989 11.504 7.62419 11.3948 7.816 11.1981L11.716 7.1981Z"
+            fill="#1C9C75" />
+        </svg>
+        <svg class="form__icon form__icon_error tg-fail" width="16" height="16" viewBox="0 0 16 16" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_584_6700)">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M8 16.0026C12.4183 16.0026 16 12.4209 16 8.00269C16 3.58441 12.4183 0.00268555 8 0.00268555C3.58172 0.00268555 0 3.58441 0 8.00269C0 12.4209 3.58172 16.0026 8 16.0026ZM6.70996 11.7052C6.70996 10.9595 7.27667 10.4226 7.9925 10.4226C8.72326 10.4226 9.28996 10.9595 9.28996 11.7052C9.28996 12.4509 8.72326 13.0026 7.9925 13.0026C7.27667 13.0026 6.70996 12.4509 6.70996 11.7052ZM7.46502 3.00269H8.53489C8.97368 3.00269 9.31875 3.37771 9.2823 3.81498L8.88821 8.54371C8.86661 8.80285 8.64998 9.00218 8.38994 9.00218H7.61006C7.35002 9.00218 7.13338 8.80286 7.11178 8.54372L6.71761 3.81499C6.68116 3.37772 7.02623 3.00269 7.46502 3.00269Z"
+              fill="#E36563" />
+          </g>
+          <defs>
+            <clipPath id="clip0_584_6700">
+              <rect width="16" height="16" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </label>
 
-     <label class="form__label">
-       <input required type="email" class="form__input form__input_type_email" name="email" id="email" >
-       <span class="form__placeholder email-placeholder">Электронная почта</span>
-       <span class="form__error-message email-error"></span>
-       <svg class="form__icon form__icon_success email-success" width="16" height="16" viewBox="0 0 16 16" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-         <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM11.716 7.1981C12.1016 6.80266 12.0935 6.16955 11.6981 5.784C11.3027 5.39845 10.6695 5.40646 10.284 5.8019L7.12158 9.04541L5.73639 7.53773C5.36274 7.13103 4.73014 7.10424 4.32344 7.4779C3.91675 7.85155 3.88996 8.48415 4.26361 8.89084L6.36361 11.1766C6.5495 11.3789 6.81044 11.4958 7.08517 11.4999C7.35989 11.504 7.62419 11.3948 7.816 11.1981L11.716 7.1981Z" fill="#1C9C75"/>
-       </svg>
-       <svg class="form__icon form__icon_error email-fail" width="16" height="16" viewBox="0 0 16 16" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-         <g clip-path="url(#clip0_584_6700)">
-           <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16.0026C12.4183 16.0026 16 12.4209 16 8.00269C16 3.58441 12.4183 0.00268555 8 0.00268555C3.58172 0.00268555 0 3.58441 0 8.00269C0 12.4209 3.58172 16.0026 8 16.0026ZM6.70996 11.7052C6.70996 10.9595 7.27667 10.4226 7.9925 10.4226C8.72326 10.4226 9.28996 10.9595 9.28996 11.7052C9.28996 12.4509 8.72326 13.0026 7.9925 13.0026C7.27667 13.0026 6.70996 12.4509 6.70996 11.7052ZM7.46502 3.00269H8.53489C8.97368 3.00269 9.31875 3.37771 9.2823 3.81498L8.88821 8.54371C8.86661 8.80285 8.64998 9.00218 8.38994 9.00218H7.61006C7.35002 9.00218 7.13338 8.80286 7.11178 8.54372L6.71761 3.81499C6.68116 3.37772 7.02623 3.00269 7.46502 3.00269Z" fill="#E36563"/>
-         </g>
-         <defs>
-           <clipPath id="clip0_584_6700">
-             <rect width="16" height="16" fill="white"/>
-           </clipPath>
-         </defs>
-       </svg>
-     </label>
+      <label class="form__label">
+        <input required type="email" class="form__input form__input_type_email" name="email" id="email">
+        <span class="form__placeholder email-placeholder">Электронная почта</span>
+        <span class="form__error-message email-error"></span>
+        <svg class="form__icon form__icon_success email-success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM11.716 7.1981C12.1016 6.80266 12.0935 6.16955 11.6981 5.784C11.3027 5.39845 10.6695 5.40646 10.284 5.8019L7.12158 9.04541L5.73639 7.53773C5.36274 7.13103 4.73014 7.10424 4.32344 7.4779C3.91675 7.85155 3.88996 8.48415 4.26361 8.89084L6.36361 11.1766C6.5495 11.3789 6.81044 11.4958 7.08517 11.4999C7.35989 11.504 7.62419 11.3948 7.816 11.1981L11.716 7.1981Z"
+            fill="#1C9C75" />
+        </svg>
+        <svg class="form__icon form__icon_error email-fail" width="16" height="16" viewBox="0 0 16 16" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_584_6700)">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M8 16.0026C12.4183 16.0026 16 12.4209 16 8.00269C16 3.58441 12.4183 0.00268555 8 0.00268555C3.58172 0.00268555 0 3.58441 0 8.00269C0 12.4209 3.58172 16.0026 8 16.0026ZM6.70996 11.7052C6.70996 10.9595 7.27667 10.4226 7.9925 10.4226C8.72326 10.4226 9.28996 10.9595 9.28996 11.7052C9.28996 12.4509 8.72326 13.0026 7.9925 13.0026C7.27667 13.0026 6.70996 12.4509 6.70996 11.7052ZM7.46502 3.00269H8.53489C8.97368 3.00269 9.31875 3.37771 9.2823 3.81498L8.88821 8.54371C8.86661 8.80285 8.64998 9.00218 8.38994 9.00218H7.61006C7.35002 9.00218 7.13338 8.80286 7.11178 8.54372L6.71761 3.81499C6.68116 3.37772 7.02623 3.00269 7.46502 3.00269Z"
+              fill="#E36563" />
+          </g>
+          <defs>
+            <clipPath id="clip0_584_6700">
+              <rect width="16" height="16" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </label>
 
-     <label class="form__label">
-       <input required type="text" class="form__input form__input_type_role" name="role" id="role"
-              placeholder="Какая роль вам ближе?" autocomplete="off">
+      <label class="form__label">
+        <input required type="text" class="form__input form__input_type_role" name="role" id="role"
+          placeholder="Какая роль вам ближе?" autocomplete="off">
 
-       <span class="form__error-message role-error"></span>
-       <svg class="form__icon" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-         <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.792893C0.683418 0.402369 1.31658 0.402369 1.70711 0.792893L6 5.08579L10.2929 0.792893C10.6834 0.402369 11.3166 0.402369 11.7071 0.792893C12.0976 1.18342 12.0976 1.81658 11.7071 2.20711L6 7.91421L0.292893 2.20711C-0.0976311 1.81658 -0.0976311 1.18342 0.292893 0.792893Z" fill="black"/>
-       </svg>
-       <ul class="form__list form__list_role">
-         <li class="form__item">
-           Наставник
-         </li>
-         <li class="form__item">
-           Ревьюер
-         </li>
-       </ul>
-     </label>
+        <span class="form__error-message role-error"></span>
+        <svg class="form__icon" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M0.292893 0.792893C0.683418 0.402369 1.31658 0.402369 1.70711 0.792893L6 5.08579L10.2929 0.792893C10.6834 0.402369 11.3166 0.402369 11.7071 0.792893C12.0976 1.18342 12.0976 1.81658 11.7071 2.20711L6 7.91421L0.292893 2.20711C-0.0976311 1.81658 -0.0976311 1.18342 0.292893 0.792893Z"
+            fill="black" />
+        </svg>
+        <ul class="form__list form__list_role">
+          <li class="form__item">
+            Наставник
+          </li>
+          <li class="form__item">
+            Ревьюер
+          </li>
+        </ul>
+      </label>
 
-     <label class="form__label">
-       <input required type="text" class="form__input form__input_type_direction" name="direction" id="direction"
-              placeholder="Выберите направление" autocomplete="off">
-       <span class="form__error-message direction-error"></span>
-       <svg class="form__icon" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-         <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.792893C0.683418 0.402369 1.31658 0.402369 1.70711 0.792893L6 5.08579L10.2929 0.792893C10.6834 0.402369 11.3166 0.402369 11.7071 0.792893C12.0976 1.18342 12.0976 1.81658 11.7071 2.20711L6 7.91421L0.292893 2.20711C-0.0976311 1.81658 -0.0976311 1.18342 0.292893 0.792893Z" fill="black"/>
-       </svg>
-       <ul class="form__list form__list_direction">
-         <li class="form__item">
-           JavaScripts
-         </li>
-         <li class="form__item">
-           Python
-         </li>
-         <li class="form__item">
-           C++
-         </li>
-         <li class="form__item">
-           GO
-         </li>
-       </ul>
-     </label>
+      <label class="form__label">
+        <input required type="text" class="form__input form__input_type_direction" name="direction" id="direction"
+          placeholder="Выберите направление" autocomplete="off">
+        <span class="form__error-message direction-error"></span>
+        <svg class="form__icon" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M0.292893 0.792893C0.683418 0.402369 1.31658 0.402369 1.70711 0.792893L6 5.08579L10.2929 0.792893C10.6834 0.402369 11.3166 0.402369 11.7071 0.792893C12.0976 1.18342 12.0976 1.81658 11.7071 2.20711L6 7.91421L0.292893 2.20711C-0.0976311 1.81658 -0.0976311 1.18342 0.292893 0.792893Z"
+            fill="black" />
+        </svg>
+        <ul class="form__list form__list_direction">
+          <li class="form__item">
+            JavaScripts
+          </li>
+          <li class="form__item">
+            Python
+          </li>
+          <li class="form__item">
+            C++
+          </li>
+          <li class="form__item">
+            GO
+          </li>
+        </ul>
+      </label>
 
-     <button class="form__button" type="button" data-next>Далее</button>
-   </div>
+      <button class="form__button" type="button" data-next>Далее</button>
+    </div>
 
-   <div class="form__step" data-step>
-     <label class="form__label">
+    <div class="form__step" data-step>
+      <label class="form__label">
         <div>
           <p class="form__step-text">Перечислите набор технологий, которыми вы&nbsp;владеете</p>
           <p class="form__step-text-sub">И&nbsp;уровень владения каждой</p>
         </div>
-       <textarea class="form__input form__input_type_technology" name="technology" id="technology" placeholder=""></textarea>
-       <span class="form__error-message technology-error"></span>
-     </label>
+        <textarea class="form__input form__input_type_technology" name="technology" id="technology"
+          placeholder=""></textarea>
+        <span class="form__error-message technology-error"></span>
+      </label>
 
-     <label class="form__label">
-       <input required type="url" class="form__input form__input_type_cv" name="cv" id="cv">
-       <span class="form__placeholder cv-placeholder">Ссылка на резюме</span>
-       <span class="form__error-message cv-error"></span>
-       <p class="form__cv-text form__step-text-sub">Пожалуйста, проверьте, что вы&nbsp;открыли доступ к&nbsp;документу</p>
-     </label>
+      <label class="form__label">
+        <input required type="url" class="form__input form__input_type_cv" name="cv" id="cv">
+        <span class="form__placeholder cv-placeholder">Ссылка на резюме</span>
+        <span class="form__error-message cv-error"></span>
+        <p class="form__cv-text form__step-text-sub">Пожалуйста, проверьте, что вы&nbsp;открыли доступ к&nbsp;документу
+        </p>
+      </label>
 
-     <label class="form__label form__label_checkbox">
-       <input required type='checkbox' class="form__input form__input_type_agreement" name="agreement" id="agreement">
-       <span class="form__checkbox"></span>
-       <span class="form__checkbox-text form__step-text-sub">Я&nbsp;даю согласие АНО ДПО &laquo;ШАД&raquo; и&nbsp;ООО &laquo;ЯНДЕКС&raquo;
-        на&nbsp;обработку указанных данных для целей рассмотрения анкеты и&nbsp;обратной связи по&nbsp;ней.</span>
-       <span class="form__error-message agreement-error"></span>
-     </label>
+      <label class="form__label form__label_checkbox">
+        <input required type='checkbox' class="form__input form__input_type_agreement" name="agreement" id="agreement">
+        <span class="form__checkbox"></span>
+        <span class="form__checkbox-text form__step-text-sub">Я&nbsp;даю согласие АНО ДПО &laquo;ШАД&raquo; и&nbsp;ООО
+          &laquo;ЯНДЕКС&raquo;
+          на&nbsp;обработку указанных данных для целей рассмотрения анкеты и&nbsp;обратной связи по&nbsp;ней.</span>
+        <span class="form__error-message agreement-error"></span>
+      </label>
 
-     <button class="form__button form__button_prev" type="button" data-previous>Назад</button>
-     <button class="form__submit" type="submit">Отправить</button>
-   </div>
- </div>
+      <button class="form__button form__button_prev" type="button" data-previous>Назад</button>
+      <button class="form__submit" type="submit">Отправить</button>
+    </div>
+  </div>
 
 </form>
