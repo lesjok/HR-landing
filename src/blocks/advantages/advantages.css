@@ -16,9 +16,11 @@
     max-width: 770px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 640px) {
   .advantages {
-    padding: 0 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: 60px;
+    max-width: var(--max-width-sm);
   }
 }
