@@ -21,7 +21,7 @@ export const quizQuestionNext = document.querySelector('.quiz__button');
 export const quizResult = document.querySelector('.quiz__result');
 export const quizTeacherBtn = document.querySelector('.quiz__teacher');
 export const quizReviewerBtn = document.querySelector('.quiz__reviewer');
-export const quizRole = document.querySelector('.quiz__right');
+export const quizRole = document.querySelector('.quiz__answers');
 export const quizAnswers = {
   reviwer: [
     'Мне больше нравится расписывать проблемные места в дизайне, чем проговаривать их студенту. Так мне проще' +

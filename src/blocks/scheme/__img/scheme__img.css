@@ -1,7 +1,6 @@
 .scheme__img {
   max-width: 170px;
   width: 100%;
-  /* align-self: center; */
   aspect-ratio: 170 / 165;
   margin: 37px auto;
 }
@@ -9,8 +8,13 @@
 .scheme__img:last-of-type {
   margin: 30px auto;
 }
+
 @media screen and (max-width: 640px) {
   .scheme__img {
-    position: unset;
+    margin: 0 auto;
+  }
+
+  .scheme__img:last-of-type {
+    margin: 0 auto;
   }
 }

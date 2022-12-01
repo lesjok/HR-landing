@@ -1,18 +1,22 @@
 .quiz {
   max-width: var(--max-width);
   margin: var(--section-margin);
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 'quiz__answers quiz__description';
   gap: 40px;
-  max-height: 407px;
+  max-height: 297px;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 640px) {
   .quiz {
     max-width: var(--max-width-sm);
+    display: flex;
     flex-direction: column;
     gap: 20px;
     min-height: 479px;
     margin: 60px auto 0;
+    max-height: none;
   }
 }
