@@ -6,7 +6,7 @@
   font-weight: var(--font-weight-500);
   justify-content: center;
   line-height: 60px;
-  padding: 0 28px;
+  padding: 0 51px;
 }
 
 @media screen and (max-width: 640px) {

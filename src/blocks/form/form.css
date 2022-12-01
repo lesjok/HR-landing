@@ -1,20 +1,3 @@
-/* .form {
-  margin: 0 auto;
-  width: 810px;
-  box-sizing: border-box;
-  padding: 70px 100px;
-  background-color: var(--white-color);
-  border-radius: var( --border-radius-xl);
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-  visibility: visible;
-  opacity: 1;
-}
- */
-
 .form {
   visibility: hidden;
   opacity: 0;
