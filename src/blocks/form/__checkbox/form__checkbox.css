@@ -20,3 +20,10 @@
 .form__input_type_agreement:disabled+.form__checkbox {
   border-color: #979797;
 }
+
+@media screen and (max-width: 870px){
+  .form__checkbox {
+    width: 48px;
+    height: 14px;
+  }
+}

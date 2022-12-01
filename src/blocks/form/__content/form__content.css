@@ -1,0 +1,22 @@
+.form__content {
+  margin: 0 auto;
+  width: 810px;
+  box-sizing: border-box;
+  padding: 70px 100px;
+  background-color: var(--white-color);
+  border-radius: var( --border-radius-xl);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+@media screen and (max-width: 870px){
+  .form__content {
+    padding: 50px 20px;
+    width: 300px;
+    gap: 20px;
+    border-radius: 25px;
+  }
+}

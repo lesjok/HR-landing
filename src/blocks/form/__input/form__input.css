@@ -13,3 +13,17 @@
   line-height: 20px;
   color: rgba(0, 0, 0, 0.5);
 }
+
+
+@media screen and (max-width: 870px){
+  .form__input {
+    min-width: 260px;
+  }
+}
+
+@media screen and (max-width: 870px){
+  .form__input::placeholder {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

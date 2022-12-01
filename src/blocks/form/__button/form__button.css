@@ -22,3 +22,9 @@
 .form__button:active {
   background-color: #004ED9;
 }
+
+@media screen and (max-width: 870px){
+  .form__button {
+    margin-top: 15px;
+  }
+}

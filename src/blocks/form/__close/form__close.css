@@ -11,3 +11,12 @@
   right: 30px;
   top: 30px;
 }
+
+@media screen and (max-width: 870px){
+  .form__close {
+    width: 24px;
+    height: 24px;
+    right: 15px;
+    top: 15px;
+  }
+}
