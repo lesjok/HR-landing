@@ -7,12 +7,17 @@
   line-height: 20px;
   color: var(--gray_light-color);
   position: relative;
-  border-bottom: 2px solid var(--blue-color);
+  transition: .5s;
+  border-bottom: 2px solid var(--gray_light-color);
 }
 
 .form__road_step.active {
   color: var(--black-color);
-  border-color: #3073E8;
+  border-bottom: 2px solid var(--blue-color);
+}
+
+.form__road_step.valid {
+  opacity: .6;
 }
 
 /*.form__road_step::after {*/
