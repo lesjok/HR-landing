@@ -8,6 +8,12 @@
   border-radius: var(--border-radius-m);
 }
 
+@media screen and (max-width: 1025px) {
+  .advantages__card_big {
+    width: 458px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .advantages__card_big {
     width: 369px;
