@@ -9,8 +9,9 @@
 </head>
 
 <body class="page">
-
   <%= require('./partHTML/header.html?raw') %>
+
+  <main>
   <%= require('./partHTML/hero.html?raw') %>
   <%= require('./partHTML/advantages.html?raw') %>
   <%= require('./partHTML/about.html?template').default %>
@@ -20,10 +21,11 @@
   <%= require('./partHTML/reviews.html?template').default %>
   <%= require('./partHTML/faq.html?raw') %>
   <%= require('./partHTML/contact.html?raw') %>
+  </main>
+
   <%= require('./partHTML/footer.html?raw') %>
   <%= require('./partHTML/form.html?raw') %>
   <%= require('./partHTML/popup.html?raw') %>
-  <%= require('./partHTML/modal.html?raw') %>
   <%= require('./partHTML/scroll-up.html?raw') %>
 </body>
 
