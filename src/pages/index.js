@@ -16,10 +16,11 @@ import {
   peopleRole,
   peopleContainer,
   peopleDirection,
-  peopleDirectionContainer, 
+  peopleDirectionContainer,
   formRoadSteps,
-  btnsRight, 
-  btnsLeft
+  btnsRight,
+  btnsLeft,
+  closePopup
 } from '../scripts/utils/constants';
 
 import { getCoordinate, scrollCards } from '../scripts/utils/slider';
@@ -28,7 +29,7 @@ import { clickCount, quiz } from '../scripts/utils/quiz';
 import { scrollUp } from '../scripts/utils/scrollUp'
 import { srollToAnchors } from '../scripts/utils/srollToAnchors'
 import { accordeon } from '../scripts/utils/accordeon';
-import { openPopup } from '../scripts/utils/openPopup';
+import { openPopup, openSharePopup } from '../scripts/utils/openPopup';
 
 import {  } from '../scripts/utils/constants';
 import {enableFormValidation} from '../scripts/utils/form';
@@ -42,6 +43,7 @@ document.addEventListener('DOMContentLoaded', scrollUp);
 openPopup();
 srollToAnchors();
 accordeon();
+openSharePopup();
 
 btnsRight.forEach(item => {
   item.addEventListener('mousedown', () => {
@@ -93,3 +95,17 @@ peopleDirection.blur();
 
 document.getElementById('davaToday').valueAsDate = new Date();
 import { filter } from '../scripts/utils/offers-filter';
+closePopup.addEventListener('click', () => {
+  document.querySelector('.popup').classList.remove('popup_opened');
+});
+
+document.querySelector('.share').addEventListener('click', (e) => {
+  e.preventDefault();
+  navigator.clipboard.writeText('https://lesjok.github.io/HR-landing/')
+  .then(() => {
+  })
+  .catch((err) => {
+    console.log('Что-то пошло не так');
+  })
+})
+
