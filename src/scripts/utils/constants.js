@@ -81,3 +81,5 @@ export const peopleContainer = document.querySelector('.form__list_role');
 export const peopleDirection = document.querySelector('.form__input_type_direction');
 export const peopleDirectionContainer = document.querySelector('.form__list_direction');
 
+export const btnsRight = document.querySelectorAll('.reviews__button_right');
+export const btnsLeft = document.querySelectorAll('.reviews__button_left');
