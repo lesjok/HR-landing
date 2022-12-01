@@ -137,17 +137,24 @@ function getInputListAndSubmitButton(formElement, config) {
   return inputlist
 }
 
-function resetImputsErrorMessage(formElement, config) {
+export function resetImputsErrorMessage(formElement, config) {
   const errors = Array.from(formElement.querySelectorAll(config.formErrorMessageSelector));
   errors.forEach(error => {
     error.classList.remove(config.formErrorClass);
+    error.textContent = ''
   });
 
   getInputListAndSubmitButton(formElement, config);
 
   getInputListAndSubmitButton(formElement, config).forEach(input => {
     input.classList.remove(config.inputErrorClass);
-  })
+    input.classList.remove(config.inputSuccessClass);
+
+  });
+
+  const svgIcons = Array.from(document.querySelectorAll('.form__icon'));
+  svgIcons.forEach(elem => elem.classList.remove('active'));
+
 }
 
 function setEvenetListeners(formElement, config) {
@@ -167,7 +174,7 @@ export function enableFormValidation(config) {
 
 const input = document.getElementById('davaToday');
 input.addEventListener('blur', function() {
-  const date = document.getElementById('davaToday').valueAsDate.getFullYear()
+  const date = document.getElementById('davaToday').valueAsDate.getFullYear();
   if(date > 2004) {
     document.querySelector('.form__error-message_date').style.display = 'block';
     input.classList.add('form__input_error');
