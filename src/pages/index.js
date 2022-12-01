@@ -17,6 +17,8 @@ import {
   peopleContainer,
   peopleDirection,
   peopleDirectionContainer,
+  btnsRight, 
+  btnsLeft 
 } from '../scripts/utils/constants';
 
 import { getCoordinate, scrollCards } from '../scripts/utils/slider';
@@ -27,7 +29,6 @@ import { srollToAnchors } from '../scripts/utils/srollToAnchors'
 import { accordeon } from '../scripts/utils/accordeon';
 import { openPopup } from '../scripts/utils/openPopup';
 
-import { btnsRight, btnsLeft } from '../scripts/utils/constants';
 document.getElementById('davaToday').valueAsDate = new Date();
 
 document.querySelector('.form__close').addEventListener('click', () => {
@@ -43,12 +44,21 @@ accordeon();
 
 btnsRight.forEach(item => {
   item.addEventListener('mousedown', () => {
-    scrollCards(340);
+    if (item.classList.contains('reviews__button_right_mob')) {
+      scrollCards(340);
+    } else {
+      scrollCards(501);
+    }
   })
 });
+
 btnsLeft.forEach(item => {
   item.addEventListener('mousedown', () => {
-    scrollCards(-340);
+    if (item.classList.contains('reviews__button_left_mob')) {
+      scrollCards(-340);
+    } else {
+      scrollCards(-501);
+    }
   })
 });
 
