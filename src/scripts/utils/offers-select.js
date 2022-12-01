@@ -39,4 +39,4 @@ export let selectProgram = function() {
     })
   })
 }
-selectProgram();
+
