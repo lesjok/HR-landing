@@ -164,3 +164,10 @@ export function enableFormValidation(config) {
   const form = document.querySelector(config.formSelector);
   setEvenetListeners(form, config);
 }
+
+const date = document.querySelector('.form__input_type_date').value.slice(-10, -6);
+if(Number(date) > 2004) {
+  document.querySelector('.form__error-message_date').style.display = 'block';
+} else {
+  document.querySelector('.form__error-message_date').style.display = 'none';
+}

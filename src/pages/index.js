@@ -87,3 +87,6 @@ peopleDirection.addEventListener('click', () => {
     peopleDirection.blur();
   });
 });
+
+document.getElementById('davaToday').valueAsDate = new Date();
+import { filter } from '../scripts/utils/offers-filter';
