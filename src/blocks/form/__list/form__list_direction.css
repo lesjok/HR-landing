@@ -5,6 +5,8 @@
   top: 66px;
   opacity: 0;
   visibility: hidden;
+  overflow-y: scroll;
+  min-height: 100px;
   transition: .5s;
 }
 

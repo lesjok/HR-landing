@@ -6,7 +6,6 @@
   background-color: var(--white-color);
   border-radius: var( --border-radius-xl);
   position: relative;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   gap: 60px;
