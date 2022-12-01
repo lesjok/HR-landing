@@ -27,7 +27,7 @@ import { srollToAnchors } from '../scripts/utils/srollToAnchors'
 import { accordeon } from '../scripts/utils/accordeon';
 import { openPopup } from '../scripts/utils/openPopup';
 
-import { filter } from '../scripts/utils/offers-filter';
+import { btnsRight, btnsLeft } from '../scripts/utils/constants';
 document.getElementById('davaToday').valueAsDate = new Date();
 
 document.querySelector('.form__close').addEventListener('click', () => {
@@ -40,6 +40,17 @@ document.addEventListener('DOMContentLoaded', scrollUp);
 openPopup();
 srollToAnchors();
 accordeon();
+
+btnsRight.forEach(item => {
+  item.addEventListener('mousedown', () => {
+    scrollCards(340);
+  })
+});
+btnsLeft.forEach(item => {
+  item.addEventListener('mousedown', () => {
+    scrollCards(-340);
+  })
+});
 
 sliderLRightBtn.addEventListener('mousedown', () => {
   scrollCards(501);

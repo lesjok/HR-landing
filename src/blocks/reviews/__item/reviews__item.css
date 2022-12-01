@@ -1,2 +1,5 @@
+@media screen and (max-width: 470px) {
 .reviews__item {
+    width: 300px;
+  }
 }
