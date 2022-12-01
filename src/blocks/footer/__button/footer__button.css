@@ -10,11 +10,11 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 800px) {
   .footer__button {
-    width: 256px;
+    width: 232px;
     font-size: 13px;
     line-height: 14px;
-    height: 36px;
+    padding: 11px 16px;
   }
 }

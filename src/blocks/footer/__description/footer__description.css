@@ -4,8 +4,11 @@
   line-height: 19px;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 800px) {
   .footer__description {
-    transform: translateY(110px);
+
+    font-size: 12px;
+    line-height: 13px;
+
   }
 }

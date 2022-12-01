@@ -1,13 +1,5 @@
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 800px) {
 .footer__item:first-child {
-    margin-right: 110px;
-  }
-}
-@media screen and (max-width: 470px) {
-  .footer__item {
-    width: 100%;
-  }
-  .footer__media .footer__item {
-    width: inherit;
+    margin-right: auto;
   }
 }

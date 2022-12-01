@@ -4,8 +4,12 @@
   flex-direction: column;
   gap: 5px;
 }
-@media screen and (max-width: 470px) {
+
+@media screen and (max-width: 800px) {
   .footer__phone {
-    /* order: 4; */
+
+    font-size: 16px;
+    line-height: 21px;
+
   }
 }

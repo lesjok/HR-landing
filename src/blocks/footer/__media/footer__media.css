@@ -5,9 +5,11 @@
   display: flex;
   gap: 30px;
 }
-@media screen and (max-width: 470px) {
+
+@media screen and (max-width: 800px) {
   .footer__media {
-    transform: translateY(-423px);
-    gap: 20px;
+
+    justify-content: space-between;
+
   }
 }

@@ -3,9 +3,8 @@
   flex-direction: column;
   gap: 40px;
 }
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 800px) {
   .footer__right {
-    order: 1;
-    margin-top: 82px;
+    display: none;
   }
 }
