@@ -171,3 +171,5 @@ if(Number(date) > 2004) {
 } else {
   document.querySelector('.form__error-message_date').style.display = 'none';
 }
+
+console.log(date)
