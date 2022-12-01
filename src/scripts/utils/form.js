@@ -165,11 +165,14 @@ export function enableFormValidation(config) {
   setEvenetListeners(form, config);
 }
 
-const date = document.querySelector('.form__input_type_date').value.slice(-10, -6);
-if(Number(date) > 2004) {
-  document.querySelector('.form__error-message_date').style.display = 'block';
-} else {
-  document.querySelector('.form__error-message_date').style.display = 'none';
-}
-
-console.log(date)
+const input = document.getElementById('davaToday');
+input.addEventListener('blur', function() {
+  const date = document.getElementById('davaToday').valueAsDate.getFullYear()
+  if(date > 2004) {
+    document.querySelector('.form__error-message_date').style.display = 'block';
+    input.classList.add('form__input_error');
+  } else {
+    document.querySelector('.form__error-message_date').style.display = 'none';
+    input.classList.add('form__input_success')
+  }
+})
