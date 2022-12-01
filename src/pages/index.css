@@ -51,6 +51,12 @@
 
 @import url(../blocks/form/index.css);
 
+
+/**** POPUP ****/
+
+@import url(../blocks/popup/index.css);
+
+
 /**** FACULTIES  ****/
 
 @import url(../blocks/faculties/index.css);

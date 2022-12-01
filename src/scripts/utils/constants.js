@@ -91,3 +91,5 @@ export const quizProgressSteps = document.querySelectorAll('.quiz__step');
 
 export const formRoadSteps = document.querySelectorAll('.form__road_step');
 
+export const shareButtons = document.querySelectorAll('.offers__share');
+export const closePopup = document.querySelector('.popup__close');
