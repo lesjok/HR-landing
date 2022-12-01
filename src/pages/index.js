@@ -16,7 +16,7 @@ import {
   peopleRole,
   peopleContainer,
   peopleDirection,
-  peopleDirectionContainer
+  peopleDirectionContainer,
 } from '../scripts/utils/constants';
 
 import { getCoordinate, scrollCards } from '../scripts/utils/slider';
@@ -25,13 +25,20 @@ import { clickCount, quiz } from '../scripts/utils/quiz';
 import { scrollUp } from '../scripts/utils/scrollUp'
 import { srollToAnchors } from '../scripts/utils/srollToAnchors'
 import { accordeon } from '../scripts/utils/accordeon';
+import { openPopup } from '../scripts/utils/openPopup';
 
 import { filter } from '../scripts/utils/offers-filter';
 
+document.querySelector('.form__close').addEventListener('click', () => {
+  document.querySelector('.form').classList.remove('form_opened')
+})
+
+
 document.addEventListener('DOMContentLoaded', scrollUp);
 
+openPopup();
 srollToAnchors();
-accordeon()
+accordeon();
 
 sliderLRightBtn.addEventListener('mousedown', () => {
   scrollCards(501);

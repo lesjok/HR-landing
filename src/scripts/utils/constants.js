@@ -6,9 +6,11 @@ export const anchorAdvantages = document.querySelector('#advantagesAnc');
 export const anchorAbout = document.querySelector('#aboutAnc');
 export const anchorOffers = document.querySelector('#offersAnc');
 
+export const CTAbuttons = document.querySelectorAll('.cta_button');
+
 export const headerLine = document.querySelector('.hero__title_dynamic');
 export const headerTexts = [
-  'в программировании',
+  'в программировании',
   'в анализе данных',
   'в менеджменте',
   'в маркетинге',
@@ -42,7 +44,7 @@ export const quizAnswers = {
     ' в&nbsp;ней есть.',
     'Мне, как состоявшемуся дизайнеру хочется объяснять студентам, как использовать полученные знания в&nbsp;реальной работе'
   ]
-}
+};
 export const modal = document.querySelector('.modal');
 export const modalContent = document.querySelector('.modal__content');
 
@@ -72,7 +74,7 @@ export const formConfig = {
   formErrorClass: 'form__error-message_active',
   inputErrorClass: 'form__input_error',
   inputSuccessClass: 'form__input_success',
-}
+};
 
 export const peopleRole = document.querySelector('.form__input_type_role');
 export const peopleContainer = document.querySelector('.form__list_role');

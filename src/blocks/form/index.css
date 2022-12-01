@@ -1,4 +1,5 @@
 @import url(./form.css);
+@import url(./_opened/form_opened.css);
 @import url(./__title/form__title.css);
 @import url(./__button/form__button.css);
 @import url(./__button/form__button_prev.css);
