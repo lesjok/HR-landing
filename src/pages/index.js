@@ -74,17 +74,17 @@ enableFormValidation(formConfig);
 
 peopleRole.addEventListener('click', () => {
   peopleContainer.classList.toggle('active');
+ peopleRole.blur()
   peopleContainer.addEventListener('click', (evt) => {
     peopleRole.value = evt.target.textContent.trim();
-    peopleRole.blur();
   });
 });
 
 peopleDirection.addEventListener('click', () => {
   peopleDirectionContainer.classList.toggle('active');
+peopleDirection.blur();
   peopleDirectionContainer.addEventListener('click', (evt) => {
     peopleDirection.value = evt.target.textContent.trim();
-    peopleDirection.blur();
   });
 });
 
