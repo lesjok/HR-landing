@@ -1,0 +1,9 @@
+.hero__title-container {
+
+}
+
+@media screen and (max-width: 640px) {
+  .hero__title-container {
+    margin: 20px 23px 0;
+  }
+}

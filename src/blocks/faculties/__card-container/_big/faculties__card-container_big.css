@@ -1,0 +1,12 @@
+.faculties__card-container_big {
+  min-height: 181px;
+}
+
+@media screen and (max-width: 640px) {
+  .faculties__card-container_big {
+    min-width: 250px;
+    width: 100%;
+    min-height: 138px;
+    max-height: 138px;
+  }
+}

@@ -1,0 +1,12 @@
+.faq__text {
+  font-size: var(--font-size-l);
+  line-height: var(--line-height-l);
+  margin: 0;
+  max-width: 786px;
+}
+@media screen and (max-width: 470px) {
+  .faq__text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

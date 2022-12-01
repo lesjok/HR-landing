@@ -1,0 +1,24 @@
+.faculties__card-backside {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--white-color);
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  transition: .5s;
+  text-align: center;
+  border-radius: 15px;
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-s);
+  line-height: var(--line-height-s);
+  display: flex;
+}
+
+@media screen and (max-width: 640px) {
+  .faculties__card-backside {
+    font-size: 11px;
+    line-height: 12px;
+  }
+}

@@ -1,20 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Работай и делись опытом в Яндекс.Практикум</title>
 </head>
 
-<body>
-
+<body class="page">
   <%= require('./partHTML/header.html?raw') %>
 
+  <main>
+  <%= require('./partHTML/hero.html?raw') %>
+  <%= require('./partHTML/advantages.html?raw') %>
+  <%= require('./partHTML/about.html?template').default %>
+  <%= require('./partHTML/quiz.html?raw') %>
+  <%= require('./partHTML/offers.html?raw') %>
+  <%= require('./partHTML/faculties.html?raw') %>
+  <%= require('./partHTML/reviews.html?template').default %>
+  <%= require('./partHTML/faq.html?raw') %>
+  <%= require('./partHTML/contact.html?raw') %>
+  </main>
 
-    <%= require('./partHTML/footer.html?raw') %>
-
+  <%= require('./partHTML/footer.html?raw') %>
+  <%= require('./partHTML/form.html?raw') %>
+  <%= require('./partHTML/popup.html?raw') %>
+  <%= require('./partHTML/scroll-up.html?raw') %>
 </body>
 
 </html>

@@ -1,0 +1,15 @@
+.quiz__step {
+
+}
+
+@media screen and (max-width: 1025px) {
+  .quiz__step {
+    width: 95px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .quiz__step {
+    max-width: 56px;
+  }
+}

@@ -1,0 +1,30 @@
+.offers__item {
+  margin-left: 17.5px;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: var(--white-color);
+  border-radius: 30px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 0 26.5px 0;
+  transition: all .2s;
+}
+
+.offers__item.active {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+@media screen and (max-width: 470px) {
+  .offers__item {
+    margin-left: 0;
+    font-size: 14px;
+    line-height: 110%;
+    padding: 0 18px;
+    height: 45px;
+  }
+}

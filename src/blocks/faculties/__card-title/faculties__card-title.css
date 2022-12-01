@@ -1,0 +1,17 @@
+.faculties__card-title {
+  padding: 15px 15px 0;
+  margin: 0;
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-l);
+  line-height: 35px;
+  color: var(--black-color);
+}
+
+@media screen and (max-width: 800px) {
+  .faculties__card-title {
+    font-size: 16px;
+    line-height: 1.1;
+    padding: 15px 20px 0;
+  }
+}
+

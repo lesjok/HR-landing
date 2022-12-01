@@ -1,0 +1,12 @@
+.faculties__card-subtitle {
+  padding: 10px 20px;
+  margin: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .faculties__card-subtitle {
+    font-size: 14px;
+    line-height: 1.1;
+    padding: 5px 20px 0;
+  }
+}

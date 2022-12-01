@@ -1,0 +1,13 @@
+.faq__btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  margin-left: auto;
+  display: flex;
+  transition: opacity .2s;
+}
+
+.faq__btn:hover {
+  opacity: .5;
+}

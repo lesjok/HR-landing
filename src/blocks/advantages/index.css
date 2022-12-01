@@ -1,0 +1,11 @@
+@import url(./advantages.css);
+@import url(./__title/advantages__title.css);
+@import url(./__cards/advantages__cards.css);
+@import url(./__cards/_size/_big/advantages__cards_size_big.css);
+@import url(./__cards/_size/_small/advantages__cards_size_small.css);
+@import url(./__card/advantages__card.css);
+@import url(./__card/_big/advantages__card_big.css);
+@import url(./__card/_small/advantages__card_small.css);
+@import url(./__description/advantages__description.css);
+@import url(./__subtitle/advantages__subtitle.css);
+@import url(./__text/advantages__text.css);

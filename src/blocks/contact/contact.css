@@ -1,0 +1,13 @@
+.contact {
+  max-width: var(--max-width);
+  margin: var(--section-margin);
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 640px) {
+  .contact {
+    max-width: var(--max-width-sm);
+    margin: 60px auto 0;
+  }
+}

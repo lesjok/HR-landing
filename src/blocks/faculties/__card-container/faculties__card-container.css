@@ -1,0 +1,31 @@
+.faculties__card-container {
+  display: flex;
+  position: relative;
+  align-self: center;
+  backface-visibility: hidden;
+  width: 373px;
+  min-height: 203px;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  transition: .5s;
+  border-radius: 15px;
+  color: #979797;
+}
+
+.faculties__card-container:hover .faculties__card-frontside {
+  transform: rotateY(-180deg)
+}
+
+.faculties__card-container:hover .faculties__card-backside {
+  transform: rotateY(0deg)
+}
+
+@media screen and (max-width: 640px) {
+  .faculties__card-container {
+    width: 100%;
+    min-width: 250px;
+    max-width: var(--max-width-sm);
+    min-height: 138px;
+    margin: 0 auto;
+  }
+}

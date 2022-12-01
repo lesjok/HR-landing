@@ -1,0 +1,19 @@
+.header__link {
+  color: var(--black-color);
+  text-decoration: none;
+  align-self: center;
+  transition: opacity .2s;
+}
+
+.header__link:hover {
+  opacity: .6;
+}
+
+@media screen and (max-width: 640px) {
+  .header__link {
+    font-family: 'YS Display';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

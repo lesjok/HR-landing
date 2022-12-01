@@ -1,0 +1,30 @@
+.quiz__choice {
+  margin: 0;
+  padding: 30px 40px;
+  min-width: 480px;
+  min-height: 126px;
+  border-radius: var(--border-radius-m);
+  color: #3073E8;
+  background-color: var(--white-color);
+  border: none;
+  cursor: pointer;
+  transition: background-color .2s;
+  text-align: start;
+}
+
+.quiz__choice:active {
+  background-color: #979797;
+}
+
+@media screen and (max-width: 640px) {
+  .quiz__choice {
+    font-size: 14px;
+    line-height: 110%;
+    text-align: start;
+    padding: 30px;
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 120px;
+    border-radius: 15px;
+  }
+}

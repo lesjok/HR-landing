@@ -1,0 +1,22 @@
+.scheme__img {
+  max-width: 170px;
+  width: 100%;
+  aspect-ratio: 170 / 165;
+  margin: 20px auto;
+}
+
+.scheme__img:last-of-type {
+  margin: 30px auto;
+}
+
+@media screen and (max-width: 640px) {
+  .scheme__img {
+    margin: 0 auto;
+    max-width: 140px;
+  }
+
+  .scheme__img:last-of-type {
+    margin: 0 auto;
+    aspect-ratio: 140 / 103;
+  }
+}

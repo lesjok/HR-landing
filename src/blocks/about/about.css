@@ -1,0 +1,21 @@
+.about {
+  max-width: var(--max-width);
+  box-sizing: border-box;
+  margin: var(--section-margin);
+  padding: 80px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: var(--black-color);
+  border-radius: var(--border-radius-mxl);
+}
+
+@media screen and (max-width: 640px) {
+  .about {
+    padding: 40px 30px;
+    margin: 60px auto 0;
+    max-width: var(--max-width-sm);
+    border-radius: 30px;
+    gap: 30px;
+  }
+}

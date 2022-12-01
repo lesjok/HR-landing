@@ -1,0 +1,20 @@
+.advantages__subtitle {
+  margin: 0;
+  font-weight: var(--font-weight-500);
+  font-size: 36px;
+  line-height: var(--line-height-xl);
+}
+
+@media screen and (max-width: 800px) {
+  .advantages__subtitle {
+    font-size: 35px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .advantages__subtitle {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}

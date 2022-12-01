@@ -1,0 +1,18 @@
+.contact__title {
+  margin: 0;
+  padding: 0;
+  max-width: 960px;
+  line-height: var(--line-height-xl);
+  font-weight: var(--font-weight-500);
+  font-size: var(--line-height-l);
+  text-align: center;
+  align-self: center;
+}
+
+@media screen and (max-width: 640px) {
+  .contact__title {
+    font-size: 16px;
+    line-height: 1.1;
+    max-width: 290px;
+  }
+}

@@ -1,0 +1,31 @@
+.scheme {
+  width: 460px;
+  box-sizing: border-box;
+  background-color: var(--white-color);
+  border-radius: var(--border-radius-m);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+@media screen and (max-width: 1025px) {
+  .scheme {
+    width: 392px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .scheme {
+    width: 568px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .scheme {
+    max-width: 240px;
+    padding: 30px 20px ;
+    gap: 20px;
+    border-radius: 15px;
+  }
+}

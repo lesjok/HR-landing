@@ -1,0 +1,30 @@
+.hero__button {
+  color: var(--black-color);
+  background-color: var(--white-color);
+  max-width: 345px;
+  align-self: center;
+  border-radius: 100px;
+  padding: 0 76px;
+  margin: 30px 0 0;
+  font-size: var(--line-height-s);
+  font-weight: var(--font-weight-500);
+  line-height: 60px;
+}
+
+
+
+@media screen and (max-width: 1025px) {
+  .hero__button {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .hero__button {
+    font-size: 14px;
+    line-height: 2.57;
+    max-width: 202px;
+    padding: 0 16px;
+    margin: 0 0 20px;
+  }
+}

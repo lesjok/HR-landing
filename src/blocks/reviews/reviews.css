@@ -1,0 +1,14 @@
+.reviews {
+  max-width: var(--max-width);
+  margin: 100px auto 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .reviews {
+    max-width: var(--max-width-sm);
+    gap: 20px;
+    margin: 60px auto 0;
+  }
+}
+

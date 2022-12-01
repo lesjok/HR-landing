@@ -1,0 +1,7 @@
+@media screen and (max-width: 640px) {
+  .faculties__cards {
+    display: flex;
+    max-width: var(--max-width-sm);
+    overflow: scroll;
+  }
+}

@@ -1,0 +1,16 @@
+.faq {
+  max-width: var(--max-width);
+  box-sizing: border-box;
+  margin: var(--section-margin);
+  background-color: var(--white-color);
+  padding: 51px 100px 60px;
+  border-radius: var(--border-radius-xl);
+}
+@media screen and (max-width: 640px) {
+  .faq{
+    padding: 40px 20px;
+    width: 300px;
+    margin-top: 60px;
+    border-radius: var(--border-radius-m);
+  }
+}

@@ -1,0 +1,11 @@
+.scheme__icon {
+  width: 28px;
+  height: 28px;
+}
+
+@media screen and (max-width: 870px){
+  .scheme__icon {
+    width: 18px;
+    height: 18px;
+  }
+}

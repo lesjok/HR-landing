@@ -1,0 +1,14 @@
+.reviews__slider {
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: var(--max-width);
+}
+
+@media screen and (max-width: 640px) {
+  .reviews__slider {
+    padding-bottom: 30px;
+  }
+}

@@ -1,0 +1,6 @@
+.popup__link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  width: 83px;
+}

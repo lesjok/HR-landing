@@ -1,0 +1,35 @@
+.offers__select_current {
+  border: none;
+  background-color: var(--black-color);
+  cursor: pointer;
+  color: var(--white-color);
+  border-radius: var(--border-radius-2xl);
+  width: 219px;
+  box-sizing: border-box;
+  height: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.offers__select_current::after {
+  content: "";
+  display: block;
+  background: url(../../../../images/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  position: absolute;
+  right: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 470px) {
+  .offers__select_current {
+    width: 250px;
+  }
+}

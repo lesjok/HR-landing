@@ -1,0 +1,25 @@
+.advantages__card_small {
+  width: 373px;
+  text-align: center;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+.advantages__card_small:last-child {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+@media screen and (max-width: 470px) {
+  .advantages__card_small {
+    height: 78px;
+    width: 300px;
+    padding: 30px 16px;
+    gap: 10px;
+  }
+  .advantages__card_small:last-child {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

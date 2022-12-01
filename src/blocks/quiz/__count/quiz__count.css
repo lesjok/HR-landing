@@ -1,0 +1,13 @@
+.quiz__count {
+  margin: 0;
+  font-size: var(--font-size-l);
+  line-height: var(--line-height-l);
+  color: var(--black-color);
+}
+
+@media screen and (max-width: 640px) {
+  .quiz__count {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+}

@@ -1,0 +1,16 @@
+.offers__card.hide {
+  display: none;
+}
+
+@media screen and (max-width: 470px) {
+  .offers__card {
+    margin-right: 0;
+    width: 300px;
+  }
+  .offers__card:nth-child(10) .offers__card-title {
+    width: 243px;
+  }
+  .offers__card:nth-child(5) .offers__card-title {
+    width: 225px;
+  }
+}

@@ -1,0 +1,9 @@
+.quiz__progress {
+
+}
+
+@media screen and (max-width: 640px) {
+  .quiz__progress {
+    max-width: 300px;
+  }
+}

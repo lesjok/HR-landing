@@ -1,0 +1,20 @@
+.quiz__wrapper {
+  max-width: 560px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 64px 33.5px 132px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  border-radius: var(--border-radius-m);
+  background-color: var(--white-color);
+  position: relative;
+  max-height: 314px;
+}
+
+@media screen and (max-width: 640px) {
+  .quiz__wrapper {
+    padding: 40.5px 0;
+  }
+}

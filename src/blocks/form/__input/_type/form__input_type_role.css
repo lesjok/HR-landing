@@ -1,0 +1,21 @@
+.form__input_type_role {
+  caret-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 13px 40px 13px 12px;
+}
+
+.form__input_type_role:focus {
+  background: rgba(0, 0, 0, 0.06);
+}
+.form__input_type_role:focus .form__input::placeholder {
+  color: var(--blue-color);
+}
+
+@media screen and (max-width: 870px){
+  .form__input_type_role {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

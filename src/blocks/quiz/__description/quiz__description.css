@@ -1,0 +1,21 @@
+.quiz__description {
+  max-width: 560px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: var(--border-radius-m);
+  background-color: var(--white-color);
+  /* position: relative; */
+  grid-area: quiz__description;
+}
+
+@media screen and (max-width: 640px) {
+  .quiz__description {
+    padding: 30px;
+    gap: 9px;
+    border-radius: 15px;
+  }
+}

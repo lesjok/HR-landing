@@ -1,0 +1,32 @@
+.form__step {
+  display: flex;
+  gap: 30px 50px;
+  flex-wrap: wrap;
+  animation: fade 250ms ease-in-out forwards;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 870px){
+  .form__step {
+    row-gap: 15px;
+  }
+}
+
+
+@keyframes fade {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(.75);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}

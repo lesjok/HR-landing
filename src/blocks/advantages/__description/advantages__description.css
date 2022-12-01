@@ -1,0 +1,14 @@
+.advantages__description {
+  margin: 0;
+  max-width: 326px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+@media screen and (max-width: 470px) {
+  .advantages__description {
+    font-size: 14px;
+    line-height: 15px;
+    max-width: 240px;
+  }
+}

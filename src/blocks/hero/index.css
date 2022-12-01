@@ -1,0 +1,7 @@
+@import url(./hero.css);
+@import url(./__text/hero__text.css);
+@import url(./__title-container/hero__title-container.css);
+@import url(./__title/hero__title.css);
+@import url(./__title/_dynamic/hero__title_dynamic.css);
+@import url(./__subtitle/hero__subtitle.css);
+@import url(./__button/hero__button.css);

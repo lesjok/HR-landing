@@ -1,0 +1,19 @@
+.quiz__result {
+  max-width: 300px;
+  border-radius: var(--border-radius-2xl);
+  display: flex;
+  font-size: var(--font-size-s);
+  font-weight: var(--font-weight-500);
+  justify-content: center;
+  line-height: 60px;
+  padding: 0 51px;
+}
+
+@media screen and (max-width: 640px) {
+  .quiz__result {
+    max-width: 255px;
+    padding: 0 41px;
+    font-size: 14px;
+    line-height: 36px;
+  }
+}

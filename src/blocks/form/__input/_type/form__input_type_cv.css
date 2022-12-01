@@ -1,0 +1,9 @@
+.form__input_type_cv {
+
+}
+
+@media screen and (max-width: 870px){
+  .form__input_type_cv {
+    margin-bottom: 5px;
+  }
+}

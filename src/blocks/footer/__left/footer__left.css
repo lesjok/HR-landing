@@ -1,0 +1,13 @@
+.footer__left {
+  min-width: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+@media screen and (max-width: 800px) {
+  .footer__left {
+    display: none;
+  }
+}

@@ -1,0 +1,9 @@
+.faq__container {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 470px) {
+  .faq__container{
+    padding-bottom: 10px;
+  }
+}

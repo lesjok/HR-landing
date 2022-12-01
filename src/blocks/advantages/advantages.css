@@ -1,0 +1,26 @@
+.advantages {
+  max-width: var(--max-width);
+  box-sizing: border-box;
+  margin: var(--section-margin);
+  font-family: var(--font-family-YS);
+}
+@media screen and (max-width: 1280px) {
+  .advantages {
+    max-width: 937px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .advantages {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 770px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .advantages {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 60px;
+    max-width: var(--max-width-sm);
+  }
+}

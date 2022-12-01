@@ -1,0 +1,8 @@
+.form__button_prev {
+  background-color: var(--white-color);
+  color: var(--blue-color);
+}
+
+.form__button_prev:hover {
+  color: var(--white-color);
+}

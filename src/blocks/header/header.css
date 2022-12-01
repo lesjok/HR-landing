@@ -1,3 +1,40 @@
 .header {
-  background-color: var(--primary-color);
+  margin: 20px auto 0;
+  padding: 25px 20px 22px;
+  box-sizing: border-box;
+  max-width: var(--max-width);
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white-color);
+  border-radius: var(--border-radius-s);
+  position: sticky;
+  top: 10px;
+  width: 100%;
+  z-index: 3;
+  filter: drop-shadow(0px 4px 40px rgba(50, 53, 85, 0.1));
+
+}
+
+
+@media screen and (max-width: 1280px) {
+  .header {}
+}
+
+@media screen and (max-width: 1024px) {
+  .header {}
+}
+
+@media screen and (max-width: 768px) {
+  .header {}
+}
+
+@media screen and (max-width: 640px) {
+  .header {
+    flex-direction: column;
+    min-width: var(--max-width-sm);
+    width: 300px;
+    padding: 0;
+    margin: 10px auto;
+    background: none;
+  }
 }

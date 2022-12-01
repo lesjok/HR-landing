@@ -1,0 +1,15 @@
+.footer__phone {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .footer__phone {
+
+    font-size: 16px;
+    line-height: 21px;
+
+  }
+}

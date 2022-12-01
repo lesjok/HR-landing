@@ -1,0 +1,5 @@
+.scheme__container {
+  display: flex;
+  flex: 1 1 auto;
+  gap: 15px;
+}

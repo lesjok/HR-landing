@@ -1,0 +1,12 @@
+.form__input_type_technology {
+  width: 610px;
+  height: 200px;
+  resize: none;
+}
+
+@media screen and (max-width: 870px){
+  .form__input_type_technology {
+    margin-top: 5px;
+    width: 260px;
+  }
+}

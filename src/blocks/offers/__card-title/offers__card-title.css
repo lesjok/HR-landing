@@ -1,0 +1,23 @@
+.offers__card-title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  width: 470px;
+}
+
+@media screen and (max-width: 800px) {
+  .offers__card-title{
+    width: 100%;
+    font-size: 27px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .offers__card-title {
+    font-size: var(--font-size-s);
+    line-height: 18px;
+    width: 238px;
+  }
+}

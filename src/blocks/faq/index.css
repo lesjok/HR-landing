@@ -1,0 +1,12 @@
+@import url(./faq.css);
+@import url(./__list/faq__list.css);
+@import url(./__title/faq__title.css);
+@import url(./__item/faq__item.css);
+@import url(./__item/_last/faq__item_last.css);
+@import url(./__btn/faq__btn.css);
+@import url(./__text/faq__text.css);
+@import url(./__svg/faq__svg.css);
+@import url(./__svg/_minus/faq__svg_minus.css);
+@import url(./__svg/_plus/faq__svg_plus.css);
+@import url(./__hidden/faq__hidden.css);
+@import url(./__container/faq__container.css);
