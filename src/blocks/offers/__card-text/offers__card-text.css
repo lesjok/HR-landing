@@ -4,12 +4,13 @@
   line-height: var(--line-height-m);
   color: var(--gray-color);
   max-width: 233px;
-  margin: 0;
-  margin-top: 11px;
+  margin: 21px 0 0;
+  align-self: flex-start;
 }
 @media screen and (max-width: 470px) {
   .offers__card-text {
     font-size: var(--font-size-s);
     line-height: var(--line-height-s);
+    margin-top: 24px;
   }
 }

@@ -11,4 +11,8 @@
     gap: 10px;
     max-width: 200px;
   }
+
+  .scheme__item img {
+    max-width: 18px;
+  }
 }

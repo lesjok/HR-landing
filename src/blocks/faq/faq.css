@@ -3,7 +3,7 @@
   box-sizing: border-box;
   margin: var(--section-margin);
   background-color: var(--white-color);
-  padding: 50px 100px 100px;
+  padding: 51px 100px 60px;
   border-radius: var(--border-radius-xl);
 }
 @media screen and (max-width: 470px) {

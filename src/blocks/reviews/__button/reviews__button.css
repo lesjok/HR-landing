@@ -22,3 +22,10 @@
 .reviews__button:active {
   background-color: #004ED9;
 }
+
+@media screen and (max-width: 640px) {
+  .reviews__button {
+    width: 36px;
+    height: 36px;
+  }
+}

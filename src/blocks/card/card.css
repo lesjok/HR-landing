@@ -2,12 +2,13 @@
   width: 461px;
   background-color: var(--white-color);
   border-radius: 35px;
-  min-height: 716px;
+  min-height: 745px;
 }
 
 @media screen and (max-width: 640px) {
   .card {
     min-height: 550px;
     width: 100%;
+    border-radius: 16px;
   }
 }

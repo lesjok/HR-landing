@@ -2,7 +2,7 @@
   max-width: var(--max-width);
   box-sizing: border-box;
   margin: var(--section-margin);
-  padding: 50px 106px 123px;
+  padding: 50px 102px 70px;;
   display: flex;
   gap: 150px;
   background-color: var(--white-color);
@@ -19,7 +19,7 @@
 @media screen and (max-width: 470px) {
   .footer {
     width: 300px;
-    padding: 40px 20px;
+    padding: 32px 20px;
     border-radius: var(--border-radius-s) var(--border-radius-s) 0 0;
     max-height: 880px;
     overflow: hidden;

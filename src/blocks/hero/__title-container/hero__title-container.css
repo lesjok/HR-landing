@@ -4,6 +4,6 @@
 
 @media screen and (max-width: 640px) {
   .hero__title-container {
-    margin: 20px 23px 5px;
+    margin: 20px 23px 0;
   }
 }
