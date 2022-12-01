@@ -11,7 +11,7 @@
   .section-title {
     font-size: 18px;
     line-height: 1.1;
-    margin: 0 10px 30px;
+    margin: 0 0 30px;
     max-width: var(--max-width-sm);
   }
 }
