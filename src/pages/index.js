@@ -34,10 +34,10 @@ srollToAnchors();
 accordeon()
 
 sliderLRightBtn.addEventListener('mousedown', () => {
-  scrollCards(250);
+  scrollCards(501);
 });
 sliderLeftBtn.addEventListener('mousedown', () => {
-  scrollCards(-250);
+  scrollCards(-501);
 });
 
 

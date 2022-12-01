@@ -23,9 +23,9 @@
 @media screen and (max-width: 640px) {
   .faculties__card-container {
     width: 100%;
+    min-width: 250px;
     max-width: var(--max-width-sm);
     min-height: 138px;
-    max-height: 138px;
     margin: 0 auto;
   }
 }
