@@ -87,4 +87,3 @@ export const btnsLeft = document.querySelectorAll('.reviews__button_left');
 
 export const quizProgress = document.querySelector('.quiz__progress');
 export const quizProgressSteps = document.querySelectorAll('.quiz__step');
-
