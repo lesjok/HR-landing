@@ -28,7 +28,6 @@ import { accordeon } from '../scripts/utils/accordeon';
 import { openPopup } from '../scripts/utils/openPopup';
 
 import { btnsRight, btnsLeft } from '../scripts/utils/constants';
-document.getElementById('davaToday').valueAsDate = new Date();
 
 document.querySelector('.form__close').addEventListener('click', () => {
   document.querySelector('.form').classList.remove('form_opened')
@@ -144,6 +143,29 @@ const hideSuccessMark = (inputElement) => {
   svgIcon.classList.remove('active');
 }
 
+const fixedPlaceholder = (formElement, inputElement) => {
+  const placeholderElement = formElement.querySelector(`.${inputElement.id}-placeholder`);
+  placeholderElement.classList.add('form__placeholder_fixed');
+}
+
+const unFixedPlaceholder = (formElement, inputElement) => {
+  const placeholderElement = formElement.querySelector(`.${inputElement.id}-placeholder`);
+  placeholderElement.classList.remove('form__placeholder_fixed');
+}
+
+const isEmptyInput = (formElement, inputElement) => {
+  !inputElement.value.length >= 1 ? unFixedPlaceholder(formElement, inputElement) : fixedPlaceholder(formElement, inputElement)
+}
+
+const setPlaceholders = (formElement, config) => {
+  const inputlist = Array.from(formElement.querySelectorAll(config.inputSelector));
+  inputlist.forEach(elem => {
+    elem.addEventListener('input', () => {
+      isEmptyInput(formElement, elem);
+    });
+  });
+}
+
 function showErrorMessage(formElement, inputElement, config) {
   const error = formElement.querySelector(`.${inputElement.id}-error`);
   error.classList.add(config.formErrorClass);
@@ -203,6 +225,7 @@ function setEvenetListeners(formElement, config) {
       checkInputValidity(formElement, input, config);
     });
   });
+  setPlaceholders(formElement, config)
 }
 
 function enableFormValidation(config) {
